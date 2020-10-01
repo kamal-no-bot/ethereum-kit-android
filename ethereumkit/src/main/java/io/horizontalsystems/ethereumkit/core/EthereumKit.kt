@@ -16,6 +16,13 @@ import io.horizontalsystems.ethereumkit.crypto.InternalBouncyCastleProvider
 import io.horizontalsystems.ethereumkit.models.*
 import io.horizontalsystems.ethereumkit.network.*
 import io.horizontalsystems.ethereumkit.transactionsyncers.*
+import io.horizontalsystems.ethereumkit.network.ConnectionManager
+import io.horizontalsystems.ethereumkit.network.INetwork
+import io.horizontalsystems.ethereumkit.network.MainNet
+import io.horizontalsystems.ethereumkit.network.Ropsten
+import io.horizontalsystems.ethereumkit.spv.core.SpvBlockchain
+import io.horizontalsystems.ethereumkit.spv.core.storage.SpvStorage
+import io.horizontalsystems.ethereumkit.utils.PaymentAddressParser
 import io.horizontalsystems.hdwalletkit.HDWallet
 import io.horizontalsystems.hdwalletkit.Mnemonic
 import io.reactivex.BackpressureStrategy
@@ -49,6 +56,7 @@ class EthereumKit(
     private val logger = Logger.getLogger("EthereumKit")
     private val disposables = CompositeDisposable()
 
+    private val paymentAddressParser = PaymentAddressParser(removeScheme = true)
     private val lastBlockHeightSubject = PublishSubject.create<Long>()
     private val syncStateSubject = PublishSubject.create<SyncState>()
     private val accountStateSubject = PublishSubject.create<AccountState>()
@@ -192,6 +200,10 @@ class EthereumKit(
         val rawTransaction = transactionBuilder.rawTransaction(gasPrice, gasLimit, address, value, nonce, transactionInput)
         val signature = transactionSigner.signature(rawTransaction)
         return transactionBuilder.encode(rawTransaction, signature)
+    }
+
+    fun parsePaymentAddress(paymentAddress: String): EthereumPaymentData {
+        return paymentAddressParser.parse(paymentAddress)
     }
 
     fun getLogs(address: Address?, topics: List<ByteArray?>, fromBlock: Long, toBlock: Long, pullTimestamps: Boolean): Single<List<TransactionLog>> {
