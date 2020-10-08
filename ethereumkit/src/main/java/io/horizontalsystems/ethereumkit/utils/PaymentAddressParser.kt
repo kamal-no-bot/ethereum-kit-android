@@ -2,6 +2,7 @@ package io.horizontalsystems.ethereumkit.utils
 
 import io.horizontalsystems.ethereumkit.models.EthereumPaymentData
 import java.math.BigInteger
+import java.net.URLDecoder
 
 // See https://github.com/ethereum/EIPs/blob/master/EIPS/eip-681.md
 class PaymentAddressParser(private val removeScheme: Boolean) {
@@ -51,7 +52,7 @@ class PaymentAddressParser(private val removeScheme: Boolean) {
                     parameterValue -> value = parts[1].toBigInteger()
                     parameterGasLimit-> gas = parts[1].toLong()
                     parameterGasPrice -> gasPrice = parts[1].toLong()
-                    else -> parameters[parts[0]] = parts[1]
+                    else -> parameters[parts[0]] = URLDecoder.decode(parts[1], "UTF-8")
                 }
             }
         }
