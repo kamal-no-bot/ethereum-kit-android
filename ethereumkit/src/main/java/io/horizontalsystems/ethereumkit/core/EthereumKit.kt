@@ -11,37 +11,34 @@ import io.horizontalsystems.ethereumkit.api.jsonrpc.models.RpcTransactionReceipt
 import io.horizontalsystems.ethereumkit.api.models.AccountState
 import io.horizontalsystems.ethereumkit.api.models.EthereumKitState
 import io.horizontalsystems.ethereumkit.api.storage.ApiStorage
+import io.horizontalsystems.ethereumkit.crypto.Base58
 import io.horizontalsystems.ethereumkit.crypto.CryptoUtils
 import io.horizontalsystems.ethereumkit.crypto.InternalBouncyCastleProvider
 import io.horizontalsystems.ethereumkit.models.*
 import io.horizontalsystems.ethereumkit.network.*
 import io.horizontalsystems.ethereumkit.transactionsyncers.*
-import io.horizontalsystems.ethereumkit.network.ConnectionManager
-import io.horizontalsystems.ethereumkit.network.INetwork
-import io.horizontalsystems.ethereumkit.network.MainNet
-import io.horizontalsystems.ethereumkit.network.Ropsten
-import io.horizontalsystems.ethereumkit.spv.core.SpvBlockchain
-import io.horizontalsystems.ethereumkit.spv.core.storage.SpvStorage
 import io.horizontalsystems.ethereumkit.utils.PaymentAddressParser
 import io.horizontalsystems.hdwalletkit.HDWallet
 import io.horizontalsystems.hdwalletkit.Mnemonic
+import io.horizontalsystems.hdwalletkit.Utils
 import io.reactivex.BackpressureStrategy
 import io.reactivex.Flowable
 import io.reactivex.Single
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
 import io.reactivex.subjects.PublishSubject
-import org.bouncycastle.jce.provider.BouncyCastleProvider
 import java.math.BigInteger
 import java.net.URL
 import java.security.Security
 import java.util.*
 import java.util.logging.Logger
+import org.bouncycastle.jce.provider.BouncyCastleProvider
 
 class EthereumKit(
         private val blockchain: IBlockchain,
         private val transactionManager: TransactionManager,
         private val transactionSyncManager: TransactionSyncManager,
+        private val hdWallet: HDWallet,
         private val transactionBuilder: TransactionBuilder,
         private val transactionSigner: TransactionSigner,
         private val connectionManager: ConnectionManager,
@@ -235,6 +232,13 @@ class EthereumKit(
         return statusInfo
     }
 
+    fun getExtendedPublicKey(account: Int): String {
+        val xpubBytes = hdWallet.extendedPublicKey(account)
+        val doubleSHA256 = Utils.doubleDigest(xpubBytes)
+        val checksum = Arrays.copyOfRange(doubleSHA256, 0, 4)
+        return Base58.encode(xpubBytes + checksum)
+    }
+
     //
     //IBlockchainListener
     //
@@ -349,6 +353,7 @@ class EthereumKit(
                 etherscanApiKey: String,
                 walletId: String
         ): EthereumKit {
+            val hdWallet = HDWallet(seed, 60)
             val privateKey = privateKey(seed, networkType)
             val address = ethereumAddress(privateKey)
 
@@ -403,7 +408,7 @@ class EthereumKit(
             val transactionManager = TransactionManager(address, transactionSyncManager, transactionStorage)
             val decorationManager = DecorationManager(address)
 
-            val ethereumKit = EthereumKit(blockchain, transactionManager, transactionSyncManager, transactionBuilder, transactionSigner, connectionManager, address, networkType, walletId, etherscanService, decorationManager)
+            val ethereumKit = EthereumKit(blockchain, transactionManager, transactionSyncManager, hdWallet, transactionBuilder, transactionSigner, connectionManager, address, networkType, walletId, etherscanService, decorationManager)
 
             blockchain.listener = ethereumKit
             transactionSyncManager.set(ethereumKit)
