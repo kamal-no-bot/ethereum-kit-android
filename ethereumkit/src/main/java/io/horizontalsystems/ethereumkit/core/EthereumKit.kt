@@ -353,7 +353,7 @@ class EthereumKit(
                 etherscanApiKey: String,
                 walletId: String
         ): EthereumKit {
-            val hdWallet = HDWallet(seed, 60)
+            val hdWallet = HDWallet(seed, networkType.getCoinType())
             val privateKey = privateKey(seed, networkType)
             val address = ethereumAddress(privateKey)
 
