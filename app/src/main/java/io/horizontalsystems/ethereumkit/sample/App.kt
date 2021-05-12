@@ -4,6 +4,7 @@ import android.app.Application
 import com.facebook.stetho.Stetho
 import io.horizontalsystems.ethereumkit.core.EthereumKit
 import io.reactivex.plugins.RxJavaPlugins
+import java.security.Security
 import java.util.logging.Logger
 
 class App : Application() {
