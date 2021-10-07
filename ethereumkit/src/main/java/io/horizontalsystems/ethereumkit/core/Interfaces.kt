@@ -4,6 +4,8 @@ import io.horizontalsystems.ethereumkit.api.jsonrpc.models.RpcBlock
 import io.horizontalsystems.ethereumkit.api.jsonrpc.models.RpcTransaction
 import io.horizontalsystems.ethereumkit.api.jsonrpc.models.RpcTransactionReceipt
 import io.horizontalsystems.ethereumkit.api.models.AccountState
+import io.horizontalsystems.ethereumkit.decorations.ContractEventDecoration
+import io.horizontalsystems.ethereumkit.decorations.ContractMethodDecoration
 import io.horizontalsystems.ethereumkit.models.*
 import io.horizontalsystems.ethereumkit.spv.models.AccountStateSpv
 import io.horizontalsystems.ethereumkit.spv.models.BlockHeader
@@ -78,26 +80,30 @@ interface ITransactionSyncerStateStorage {
 
 interface ITransactionStorage {
     fun getNotSyncedTransactions(limit: Int): List<NotSyncedTransaction>
+    fun getNotSyncedInternalTransactions(): NotSyncedInternalTransaction?
     fun addNotSyncedTransactions(transactions: List<NotSyncedTransaction>)
     fun update(notSyncedTransaction: NotSyncedTransaction)
     fun remove(transaction: NotSyncedTransaction)
 
     fun getFullTransaction(hash: ByteArray): FullTransaction?
     fun getFullTransactions(hashes: List<ByteArray>): List<FullTransaction>
-    fun getFullTransactions(fromSyncOrder: Long?): List<FullTransaction>
     fun getTransactionHashes(): List<ByteArray>
-    fun getEtherTransactionsAsync(address: Address, fromHash: ByteArray?, limit: Int?): Single<List<FullTransaction>>
+    fun getTransactionsBeforeAsync(tags: List<List<String>>, hash: ByteArray?, limit: Int?): Single<List<FullTransaction>>
+    fun getPendingTransactions(tags: List<List<String>>): List<FullTransaction>
     fun save(transaction: Transaction)
 
-    fun getLastInternalTransactionBlockHeight(): Long?
     fun saveInternalTransactions(internalTransactions: List<InternalTransaction>)
+    fun add(notSyncedInternalTransaction: NotSyncedInternalTransaction)
+    fun remove(notSyncedInternalTransaction: NotSyncedInternalTransaction)
 
     fun getTransactionReceipt(transactionHash: ByteArray): TransactionReceipt?
     fun save(transactionReceipt: TransactionReceipt)
 
     fun save(logs: List<TransactionLog>)
+    fun remove(logs: List<TransactionLog>)
+    fun set(tags: List<TransactionTag>)
 
-    fun getPendingTransaction(nonce: Long): Transaction?
+    fun getPendingTransactionList(nonce: Long): List<Transaction>
     fun getPendingTransactions(fromTransaction: Transaction?): List<Transaction>
     fun addDroppedTransaction(droppedTransaction: DroppedTransaction)
 }
@@ -134,46 +140,11 @@ interface ITransactionSyncerDelegate {
     fun update(transactionSyncerState: TransactionSyncerState)
 }
 
-sealed class TransactionDecoration {
-    class Transfer(
-            val from: Address,
-            val to: Address,
-            val value: BigInteger
-    ) : TransactionDecoration()
-
-    class Eip20Transfer(
-            val to: Address,
-            val value: BigInteger,
-            val contractAddress: Address
-    ) : TransactionDecoration()
-
-    class Eip20Approve(
-            val spender: Address,
-            val value: BigInteger,
-            val contractAddress: Address
-    ) : TransactionDecoration()
-
-    class Swap(
-            val trade: Trade,
-            val tokenIn: Token,
-            val tokenOut: Token,
-            val to: Address,
-            val deadline: BigInteger
-    ) : TransactionDecoration() {
-
-        sealed class Trade {
-            class ExactIn(val amountIn: BigInteger, val amountOutMin: BigInteger) : Trade()
-            class ExactOut(val amountOut: BigInteger, val amountInMax: BigInteger) : Trade()
-        }
-
-        sealed class Token {
-            object EvmCoin : Token()
-            class Eip20Coin(val address: Address) : Token()
-        }
-    }
-
+interface IDecorator {
+    fun decorate(logs: List<TransactionLog>): List<ContractEventDecoration>
+    fun decorate(transactionData: TransactionData, fullTransaction: FullTransaction?): ContractMethodDecoration?
 }
 
-interface IDecorator {
-    fun decorate(transactionData: TransactionData): TransactionDecoration?
+interface ITransactionWatcher {
+    fun needInternalTransactions(fullTransaction: FullTransaction): Boolean
 }

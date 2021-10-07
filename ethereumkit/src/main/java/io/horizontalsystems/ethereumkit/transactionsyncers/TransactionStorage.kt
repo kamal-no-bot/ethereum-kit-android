@@ -1,15 +1,17 @@
 package io.horizontalsystems.ethereumkit.transactionsyncers
 
+import androidx.sqlite.db.SimpleSQLiteQuery
 import io.horizontalsystems.ethereumkit.core.ITransactionStorage
 import io.horizontalsystems.ethereumkit.core.ITransactionSyncerStateStorage
 import io.horizontalsystems.ethereumkit.core.storage.TransactionDatabase
 import io.horizontalsystems.ethereumkit.models.*
 import io.reactivex.Single
-import java.util.concurrent.atomic.AtomicLong
 
 class TransactionStorage(database: TransactionDatabase) : ITransactionStorage, ITransactionSyncerStateStorage {
     private val notSyncedTransactionDao = database.notSyncedTransactionDao()
     private val transactionDao = database.transactionDao()
+    private val tagsDao = database.transactionTagDao()
+    private val notSyncedInternalTransactionDao = database.notSyncedInternalTransactionDao()
     private val transactionSyncerStateDao = database.transactionSyncerStateDao()
 
     //region NotSyncedTransaction
@@ -30,32 +32,134 @@ class TransactionStorage(database: TransactionDatabase) : ITransactionStorage, I
     }
     //endregion
 
+    //region NotSyncedTransaction
+    override fun getNotSyncedInternalTransactions(): NotSyncedInternalTransaction? {
+        return notSyncedInternalTransactionDao.getAll().firstOrNull()
+    }
+
+    override fun add(notSyncedInternalTransaction: NotSyncedInternalTransaction) {
+        notSyncedInternalTransactionDao.insert(notSyncedInternalTransaction)
+    }
+
+    override fun remove(notSyncedInternalTransaction: NotSyncedInternalTransaction) {
+        notSyncedInternalTransactionDao.delete(notSyncedInternalTransaction)
+    }
+//endregion
+
     //region Transaction
     override fun getTransactionHashes(): List<ByteArray> {
         return transactionDao.getTransactionHashes()
     }
 
-    override fun getEtherTransactionsAsync(address: Address, fromHash: ByteArray?, limit: Int?): Single<List<FullTransaction>> {
-        return transactionDao.getTransactionsAsync()
-                .map { fullTransactions ->
-                    var etherTransactions = fullTransactions.filter { it.hasEtherTransfer(address) }
+    override fun getTransactionsBeforeAsync(
+        tags: List<List<String>>,
+        hash: ByteArray?,
+        limit: Int?
+    ): Single<List<FullTransaction>> {
+        val whereConditions = mutableListOf<String>()
 
-                    fromHash?.let {
-                        val fullTxFrom = etherTransactions.firstOrNull { it.transaction.hash.contentEquals(fromHash) }
-                        fullTxFrom?.let {
-                            etherTransactions = etherTransactions.filter {
-                                it.transaction.timestamp < fullTxFrom.transaction.timestamp ||
-                                        (it.transaction.timestamp == fullTxFrom.transaction.timestamp
-                                                && (it.receiptWithLogs?.receipt?.transactionIndex?.compareTo(fullTxFrom.receiptWithLogs?.receipt?.transactionIndex
-                                                ?: 0) ?: 0) < 0)
-                            }
-                        }
-                    }
-                    limit?.let {
-                        etherTransactions = etherTransactions.take(limit)
-                    }
-                    etherTransactions
+        if (tags.isNotEmpty()) {
+            val tagConditions = tags
+                .mapIndexed { index, andTags ->
+                    val tagsString = andTags.joinToString(", ") { "'$it'" }
+                    "transaction_tags_$index.name IN ($tagsString)"
                 }
+                .joinToString(" AND ")
+
+            whereConditions.add(tagConditions)
+        }
+
+        hash?.let { transactionDao.getTransaction(hash) }?.let { fromTransaction ->
+            val transactionIndex = fromTransaction.receiptWithLogs?.receipt?.transactionIndex ?: 0
+            val fromCondition = """
+                           (
+                                tx.timestamp < ${fromTransaction.transaction.timestamp} OR 
+                                (
+                                    tx.timestamp = ${fromTransaction.transaction.timestamp} AND 
+                                    receipt.transactionIndex < $transactionIndex
+                                )
+                           )
+                           """
+
+            whereConditions.add(fromCondition)
+        }
+
+        val transactionTagJoinStatements = tags
+            .mapIndexed { index, _ ->
+                "INNER JOIN TransactionTag AS transaction_tags_$index ON tx.hash = transaction_tags_$index.hash"
+            }
+            .joinToString("\n")
+
+        val limitClause = limit?.let { "LIMIT $limit" } ?: ""
+
+        val orderClause = """
+                          ORDER BY tx.timestamp DESC,
+                          receipt.transactionIndex DESC
+                          """
+
+        val whereClause =
+            if (whereConditions.isNotEmpty()) "WHERE ${whereConditions.joinToString(" AND ")}" else ""
+
+        val sqlQuery = """
+                      SELECT tx.*
+                      FROM `Transaction` as tx
+                      $transactionTagJoinStatements
+                      LEFT JOIN TransactionReceipt as receipt ON tx.hash = receipt.transactionHash
+                      $whereClause
+                      GROUP BY tx.hash
+                      $orderClause
+                      $limitClause
+                      """
+
+        return transactionDao.getTransactionsBeforeAsync(SimpleSQLiteQuery(sqlQuery))
+    }
+
+    override fun getPendingTransactions(tags: List<List<String>>): List<FullTransaction> {
+        val whereConditions = mutableListOf<String>()
+        var transactionTagJoinStatements = ""
+
+        if (tags.isNotEmpty()) {
+            val tagCondition = tags
+                .mapIndexed { index, andTags ->
+                    val tagsString = andTags.joinToString(", ") { "'$it'" }
+                    "transaction_tags_$index.name IN ($tagsString)"
+                }
+                .joinToString(" AND ")
+
+            whereConditions.add(tagCondition)
+
+            transactionTagJoinStatements += tags
+                .mapIndexed { index, _ ->
+                    "INNER JOIN TransactionTag AS transaction_tags_$index ON tx.hash = transaction_tags_$index.hash"
+                }
+                .joinToString("\n")
+        }
+
+        whereConditions.add(
+            """
+            receipt.status IS NULL
+            """
+        )
+
+        val whereClause =
+            if (whereConditions.isNotEmpty()) "WHERE ${whereConditions.joinToString(" AND ")}" else ""
+
+        val sqlQuery = """
+                      SELECT tx.*
+                      FROM `Transaction` as tx
+                      $transactionTagJoinStatements
+                      LEFT JOIN TransactionReceipt as receipt ON tx.hash = receipt.transactionHash
+                      $whereClause
+                      GROUP BY tx.hash
+                      """
+
+        return transactionDao.getPending(SimpleSQLiteQuery(sqlQuery))
+    }
+
+    override fun set(tags: List<TransactionTag>) {
+        tags.forEach {
+            tagsDao.insert(it)
+        }
     }
 
     override fun getFullTransaction(hash: ByteArray): FullTransaction? {
@@ -66,14 +170,7 @@ class TransactionStorage(database: TransactionDatabase) : ITransactionStorage, I
         return transactionDao.getTransactions(hashes)
     }
 
-    override fun getFullTransactions(fromSyncOrder: Long?): List<FullTransaction> {
-        return transactionDao.getTransactions(fromSyncOrder ?: 0)
-    }
-
-    private val lastSyncOrder = AtomicLong(transactionDao.getLastTransactionSyncOrder() ?: 0)
-
     override fun save(transaction: Transaction) {
-        transaction.syncOrder = lastSyncOrder.incrementAndGet()
         transactionDao.insert(transaction)
     }
 
@@ -83,8 +180,8 @@ class TransactionStorage(database: TransactionDatabase) : ITransactionStorage, I
         }
     }
 
-    override fun getPendingTransaction(nonce: Long): Transaction? {
-        return transactionDao.getPendingTransaction(nonce)
+    override fun getPendingTransactionList(nonce: Long): List<Transaction> {
+        return transactionDao.getPendingTransactionList(nonce)
     }
 
     override fun addDroppedTransaction(droppedTransaction: DroppedTransaction) {
@@ -94,9 +191,6 @@ class TransactionStorage(database: TransactionDatabase) : ITransactionStorage, I
     //endregion
 
     //region InternalTransactions
-    override fun getLastInternalTransactionBlockHeight(): Long? {
-        return transactionDao.getLastInternalTransactionBlockNumber()
-    }
 
     override fun saveInternalTransactions(internalTransactions: List<InternalTransaction>) {
         transactionDao.insertInternalTransactions(internalTransactions)
@@ -117,6 +211,11 @@ class TransactionStorage(database: TransactionDatabase) : ITransactionStorage, I
     override fun save(logs: List<TransactionLog>) {
         transactionDao.insert(logs)
     }
+
+    override fun remove(logs: List<TransactionLog>) {
+        transactionDao.deleteLogs(logs)
+    }
+
     //endregion
 
     //region TransactionSyncerState

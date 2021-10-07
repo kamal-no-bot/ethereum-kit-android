@@ -11,9 +11,13 @@ import io.horizontalsystems.ethereumkit.api.jsonrpc.models.RpcTransactionReceipt
 import io.horizontalsystems.ethereumkit.api.models.AccountState
 import io.horizontalsystems.ethereumkit.api.models.EthereumKitState
 import io.horizontalsystems.ethereumkit.api.storage.ApiStorage
-import io.horizontalsystems.ethereumkit.crypto.Base58
 import io.horizontalsystems.ethereumkit.crypto.CryptoUtils
 import io.horizontalsystems.ethereumkit.crypto.InternalBouncyCastleProvider
+import io.horizontalsystems.ethereumkit.crypto.*
+import io.horizontalsystems.ethereumkit.decorations.ContractCallDecorator
+import io.horizontalsystems.ethereumkit.decorations.ContractMethodDecoration
+import io.horizontalsystems.ethereumkit.decorations.DecorationManager
+import io.horizontalsystems.ethereumkit.crypto.Base58
 import io.horizontalsystems.ethereumkit.models.*
 import io.horizontalsystems.ethereumkit.network.*
 import io.horizontalsystems.ethereumkit.transactionsyncers.*
@@ -38,6 +42,7 @@ class EthereumKit(
         private val blockchain: IBlockchain,
         private val transactionManager: TransactionManager,
         private val transactionSyncManager: TransactionSyncManager,
+        private val internalTransactionSyncer: TransactionInternalTransactionSyncer,
         private val hdWallet: HDWallet,
         private val transactionBuilder: TransactionBuilder,
         private val transactionSigner: TransactionSigner,
@@ -47,6 +52,7 @@ class EthereumKit(
         val walletId: String,
         val etherscanService: EtherscanService,
         private val decorationManager: DecorationManager,
+        private val ethSigner: EthSigner,
         private val state: EthereumKitState = EthereumKitState()
 ) : IBlockchainListener {
 
@@ -68,10 +74,11 @@ class EthereumKit(
         state.lastBlockHeight = blockchain.lastBlockHeight
         state.accountState = blockchain.accountState
 
-        transactionManager.etherTransactionsAsync
+        transactionManager.allTransactionsAsync
                 .subscribeOn(Schedulers.io())
-                .subscribe {
+                .subscribe { transactions ->
                     blockchain.syncAccountState()
+                    internalTransactionSyncer.sync(transactions)
                 }.let {
                     disposables.add(it)
                 }
@@ -104,9 +111,6 @@ class EthereumKit(
     val accountStateFlowable: Flowable<AccountState>
         get() = accountStateSubject.toFlowable(BackpressureStrategy.BUFFER)
 
-    val etherTransactionsFlowable: Flowable<List<FullTransaction>>
-        get() = transactionManager.etherTransactionsAsync
-
     val allTransactionsFlowable: Flowable<List<FullTransaction>>
         get() = transactionManager.allTransactionsAsync
 
@@ -137,12 +141,16 @@ class EthereumKit(
         connectionManager.onEnterBackground()
     }
 
-    fun etherTransactions(fromHash: ByteArray? = null, limit: Int? = null): Single<List<FullTransaction>> {
-        return transactionManager.getEtherTransactionsAsync(fromHash, limit)
+    fun getTransactionsFlowable(tags: List<List<String>>): Flowable<List<FullTransaction>> {
+        return transactionManager.getTransactionsFlowable(tags)
     }
 
-    fun getFullTransactions(fromSyncOrder: Long?): List<FullTransaction> {
-        return transactionManager.getFullTransactions(fromSyncOrder)
+    fun getTransactionsAsync(tags: List<List<String>>, fromHash: ByteArray? = null, limit: Int? = null): Single<List<FullTransaction>> {
+        return transactionManager.getTransactionsAsync(tags, fromHash, limit)
+    }
+
+    fun getPendingTransactions(tags: List<List<String>>): List<FullTransaction> {
+        return transactionManager.getPendingTransactions(tags)
     }
 
     fun getFullTransactions(hashes: List<ByteArray>): List<FullTransaction> {
@@ -185,8 +193,8 @@ class EthereumKit(
         }
     }
 
-    fun decorate(transactionData: TransactionData): TransactionDecoration? {
-        return decorationManager.decorate(transactionData)
+    fun decorate(transactionData: TransactionData): ContractMethodDecoration? {
+        return decorationManager.decorateTransaction(transactionData)
     }
 
     fun send(transactionData: TransactionData, gasPrice: Long, gasLimit: Long, nonce: Long? = null): Single<FullTransaction> {
@@ -201,6 +209,18 @@ class EthereumKit(
 
     fun parsePaymentAddress(paymentAddress: String): EthereumPaymentData {
         return paymentAddressParser.parse(paymentAddress)
+    }
+
+    fun signByteArray(message: ByteArray): ByteArray {
+        return ethSigner.signByteArray(message)
+    }
+
+    fun signTypedData(rawJsonMessage: String): ByteArray {
+        return ethSigner.signTypedData(rawJsonMessage)
+    }
+
+    fun parseTypedData(rawJsonMessage: String): TypedData? {
+        return ethSigner.parseTypedData(rawJsonMessage)
     }
 
     fun getLogs(address: Address?, topics: List<ByteArray?>, fromBlock: Long, toBlock: Long, pullTimestamps: Boolean): Single<List<TransactionLog>> {
@@ -266,12 +286,12 @@ class EthereumKit(
         transactionSyncManager.add(transactionSyncer)
     }
 
-    fun removeTransactionSyncer(id: String) {
-        transactionSyncManager.removeSyncer(id)
-    }
-
     fun addDecorator(decorator: IDecorator) {
         decorationManager.addDecorator(decorator)
+    }
+
+    fun addTransactionWatcher(transactionWatcher: ITransactionWatcher) {
+        internalTransactionSyncer.add(transactionWatcher)
     }
 
     sealed class SyncState {
@@ -353,7 +373,7 @@ class EthereumKit(
                 etherscanApiKey: String,
                 walletId: String
         ): EthereumKit {
-            val hdWallet = HDWallet(seed, networkType.getCoinType())
+            val hdWallet = HDWallet(seed, networkType.coinType)
             val privateKey = privateKey(seed, networkType)
             val address = ethereumAddress(privateKey)
 
@@ -374,7 +394,7 @@ class EthereumKit(
                 }
             }
 
-            val transactionSigner = TransactionSigner(privateKey, networkType.getNetwork().id)
+            val transactionSigner = TransactionSigner(privateKey, networkType.chainId)
             val transactionBuilder = TransactionBuilder(address)
             val etherscanService = EtherscanService(etherscanApiKey, networkType)
 
@@ -389,7 +409,8 @@ class EthereumKit(
 
             val etherscanTransactionsProvider = EtherscanTransactionsProvider(etherscanService, address)
             val ethereumTransactionsProvider = EthereumTransactionSyncer(etherscanTransactionsProvider)
-            val internalTransactionsProvider = InternalTransactionSyncer(etherscanTransactionsProvider, transactionStorage)
+            val userInternalTransactionsProvider = UserInternalTransactionSyncer(etherscanTransactionsProvider, transactionStorage)
+            val transactionInternalTransactionSyncer = TransactionInternalTransactionSyncer(etherscanTransactionsProvider, transactionStorage)
             val outgoingPendingTransactionSyncer = PendingTransactionSyncer(blockchain, transactionStorage)
 
             val transactionSyncer = TransactionSyncer(blockchain, transactionStorage)
@@ -398,20 +419,42 @@ class EthereumKit(
 
             val transactionSyncManager = TransactionSyncManager(notSyncedTransactionManager)
             transactionSyncer.listener = transactionSyncManager
+            userInternalTransactionsProvider.listener = transactionSyncManager
+            transactionInternalTransactionSyncer.listener = transactionSyncManager
             outgoingPendingTransactionSyncer.listener = transactionSyncManager
 
-            transactionSyncManager.add(internalTransactionsProvider)
+            transactionSyncManager.add(userInternalTransactionsProvider)
+            transactionSyncManager.add(transactionInternalTransactionSyncer)
             transactionSyncManager.add(ethereumTransactionsProvider)
             transactionSyncManager.add(transactionSyncer)
             transactionSyncManager.add(outgoingPendingTransactionSyncer)
 
-            val transactionManager = TransactionManager(address, transactionSyncManager, transactionStorage)
             val decorationManager = DecorationManager(address)
+            val tagGenerator = TagGenerator(address)
+            val transactionManager = TransactionManager(address, transactionSyncManager, transactionStorage, decorationManager, tagGenerator)
+            val ethSigner = EthSigner(privateKey, CryptoUtils, EIP712Encoder())
 
-            val ethereumKit = EthereumKit(blockchain, transactionManager, transactionSyncManager, hdWallet, transactionBuilder, transactionSigner, connectionManager, address, networkType, walletId, etherscanService, decorationManager)
+            val ethereumKit = EthereumKit(
+                    blockchain,
+                    transactionManager,
+                    transactionSyncManager,
+                    transactionInternalTransactionSyncer,
+					hdWallet,
+                    transactionBuilder,
+                    transactionSigner,
+                    connectionManager,
+                    address,
+                    networkType,
+                    walletId,
+                    etherscanService,
+                    decorationManager,
+                    ethSigner
+            )
 
             blockchain.listener = ethereumKit
             transactionSyncManager.set(ethereumKit)
+
+            decorationManager.addDecorator(ContractCallDecorator(address))
 
             return ethereumKit
         }
@@ -430,7 +473,7 @@ class EthereumKit(
         }
 
         fun privateKey(seed: ByteArray, networkType: NetworkType): BigInteger {
-            val hdWallet = HDWallet(seed, networkType.getCoinType())
+            val hdWallet = HDWallet(seed, networkType.coinType)
             return hdWallet.privateKey(0, 0, true).privKey
         }
 
@@ -447,7 +490,7 @@ class EthereumKit(
         fun infuraHttpSyncSource(networkType: NetworkType, projectId: String, projectSecret: String?): SyncSource? =
                 infuraDomain(networkType)?.let { infuraDomain ->
                     val url = URL("https://$infuraDomain/v3/$projectId")
-                    SyncSource.Http(url, networkType.getBlockTime(), projectSecret)
+                    SyncSource.Http(url, networkType.blockTime, projectSecret)
                 }
 
         fun defaultBscWebSocketSyncSource(): SyncSource =
@@ -455,7 +498,7 @@ class EthereumKit(
 
 
         fun defaultBscHttpSyncSource(): SyncSource =
-                SyncSource.Http(URL("https://bsc-dataseed.binance.org"), NetworkType.BscMainNet.getBlockTime(), null)
+                SyncSource.Http(URL("https://bsc-dataseed.binance.org"), NetworkType.BscMainNet.blockTime, null)
 
         private fun infuraDomain(networkType: NetworkType): String? =
                 when (networkType) {
@@ -463,7 +506,8 @@ class EthereumKit(
                     NetworkType.EthRopsten -> "ropsten.infura.io"
                     NetworkType.EthKovan -> "kovan.infura.io"
                     NetworkType.EthRinkeby -> "rinkeby.infura.io"
-                    else -> null
+                    NetworkType.EthGoerli -> "goerli.infura.io"
+                    NetworkType.BscMainNet -> null
                 }
 
         private fun ethereumAddress(privateKey: BigInteger): Address {
@@ -478,25 +522,18 @@ class EthereumKit(
         class Http(val url: URL, val blockTime: Long, val auth: String?) : SyncSource()
     }
 
-    enum class NetworkType {
-        EthMainNet,
-        EthRopsten,
-        EthKovan,
-        EthRinkeby,
-        BscMainNet;
-
-        fun getBlockTime() = getNetwork().blockTime
-
-        fun getNetwork() = when (this) {
-            EthMainNet -> EthMainNet()
-            BscMainNet -> BscMainNet()
-            else -> EthRopsten()
-        }
-
-        fun getCoinType() = when (this) {
-            EthMainNet, BscMainNet -> 60
-            else -> 1
-        }
+    enum class NetworkType(
+            val chainId: Int,
+            val blockTime: Long,
+            val coinType: Int,
+            val isMainNet: Boolean
+    ) {
+        EthMainNet(1, 15, 60, true),
+        EthRopsten(3, 5, 1, false),
+        EthKovan(42, 4, 1, false),
+        EthRinkeby(4, 15, 1, false),
+        BscMainNet(56, 5, 60, true),
+        EthGoerli(5, 15, 1, false);
     }
 
 }

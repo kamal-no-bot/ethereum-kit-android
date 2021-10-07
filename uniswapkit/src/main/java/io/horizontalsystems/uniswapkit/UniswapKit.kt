@@ -1,7 +1,6 @@
 package io.horizontalsystems.uniswapkit
 
 import io.horizontalsystems.ethereumkit.core.EthereumKit
-import io.horizontalsystems.ethereumkit.core.IDecorator
 import io.horizontalsystems.ethereumkit.models.Address
 import io.horizontalsystems.ethereumkit.models.TransactionData
 import io.horizontalsystems.uniswapkit.contract.SwapContractMethodFactories
@@ -91,11 +90,17 @@ class UniswapKit(
             val tradeManager = TradeManager(ethereumKit)
             val tokenFactory = TokenFactory(ethereumKit.networkType)
             val pairSelector = PairSelector(tokenFactory)
+
             return UniswapKit(tradeManager, pairSelector, tokenFactory)
         }
 
-        fun getDecorator(): IDecorator {
-            return SwapTransactionDecorator(SwapContractMethodFactories)
+        fun addDecorator(ethereumKit: EthereumKit) {
+            val decorator = SwapTransactionDecorator(ethereumKit.receiveAddress, SwapContractMethodFactories)
+            ethereumKit.addDecorator(decorator)
+        }
+
+        fun addTransactionWatcher(evmKit: EthereumKit) {
+            evmKit.addTransactionWatcher(UniswapTransactionWatcher(evmKit.receiveAddress))
         }
     }
 

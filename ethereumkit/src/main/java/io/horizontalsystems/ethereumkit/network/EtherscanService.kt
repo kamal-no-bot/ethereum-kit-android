@@ -7,6 +7,7 @@ import com.google.gson.reflect.TypeToken
 import io.horizontalsystems.ethereumkit.api.models.EtherscanResponse
 import io.horizontalsystems.ethereumkit.core.EthereumKit.NetworkType
 import io.horizontalsystems.ethereumkit.core.retryWhenError
+import io.horizontalsystems.ethereumkit.core.toHexString
 import io.horizontalsystems.ethereumkit.models.Address
 import io.reactivex.Single
 import okhttp3.OkHttpClient
@@ -33,6 +34,7 @@ class EtherscanService(
         NetworkType.EthKovan -> "https://api-kovan.etherscan.io"
         NetworkType.EthRinkeby -> "https://api-rinkeby.etherscan.io"
         NetworkType.BscMainNet -> "https://api.bscscan.com"
+        NetworkType.EthGoerli -> "https://api-goerli.etherscan.io"
     }
 
 
@@ -43,7 +45,7 @@ class EtherscanService(
             override fun log(message: String) {
                 logger.info(message)
             }
-        }).setLevel(HttpLoggingInterceptor.Level.BODY)
+        }).setLevel(HttpLoggingInterceptor.Level.BASIC)
 
         val httpClient = OkHttpClient.Builder()
                 .addInterceptor(loggingInterceptor)
@@ -76,6 +78,18 @@ class EtherscanService(
 
     fun getTokenTransactions(address: Address, startBlock: Long): Single<EtherscanResponse> {
         return service.getTokenTransactions("account", "tokentx", address.hex, startBlock, 99_999_999, "desc", apiKey)
+                .map { parseResponse(it) }
+                .retryWhenError(RequestError.RateLimitExceed::class)
+    }
+
+    fun getInternalTransactionsAsync(transactionHash: ByteArray): Single<EtherscanResponse> {
+        return service.getInternalTransactions(
+                "account",
+                "txlistinternal",
+                transactionHash.toHexString(),
+                "desc",
+                apiKey
+        )
                 .map { parseResponse(it) }
                 .retryWhenError(RequestError.RateLimitExceed::class)
     }
@@ -126,6 +140,14 @@ class EtherscanService(
                 @Query("address") address: String,
                 @Query("startblock") startblock: Long,
                 @Query("endblock") endblock: Long,
+                @Query("sort") sort: String,
+                @Query("apiKey") apiKey: String): Single<JsonElement>
+
+        @GET("/api")
+        fun getInternalTransactions(
+                @Query("module") module: String,
+                @Query("action") action: String,
+                @Query("txhash") address: String,
                 @Query("sort") sort: String,
                 @Query("apiKey") apiKey: String): Single<JsonElement>
     }

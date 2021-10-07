@@ -46,7 +46,7 @@ class EthereumAdapter(private val ethereumKit: EthereumKit) : IAdapter {
         get() = ethereumKit.accountStateFlowable.map { }
 
     override val transactionsFlowable: Flowable<Unit>
-        get() = ethereumKit.etherTransactionsFlowable.map { }
+        get() = ethereumKit.allTransactionsFlowable.map { }
 
 
     override fun start() {
@@ -69,8 +69,8 @@ class EthereumAdapter(private val ethereumKit: EthereumKit) : IAdapter {
         return ethereumKit.send(address, amount.movePointRight(decimal).toBigInteger(), byteArrayOf(), gasPrice, gasLimit)
     }
 
-    override fun transactions(from: Pair<ByteArray, Int>?, limit: Int?): Single<List<TransactionRecord>> {
-        return ethereumKit.etherTransactions(from?.first, limit).map { transactions ->
+    override fun transactions(fromHash: ByteArray?, limit: Int?): Single<List<TransactionRecord>> {
+        return ethereumKit.getTransactionsAsync(listOf(listOf("ETH")), fromHash, limit).map { transactions ->
             transactions.map { transactionRecord(it) }
         }
     }
@@ -106,7 +106,9 @@ class EthereumAdapter(private val ethereumKit: EthereumKit) : IAdapter {
                 timestamp = transaction.timestamp,
                 from = from,
                 to = to,
-                isError = fullTransaction.isFailed()
+                isError = fullTransaction.isFailed(),
+                mainDecoration = fullTransaction.mainDecoration,
+                eventsDecorations = fullTransaction.eventDecorations
         )
     }
 }

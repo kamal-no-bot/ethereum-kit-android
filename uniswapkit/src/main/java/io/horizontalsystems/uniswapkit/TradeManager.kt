@@ -83,13 +83,7 @@ class TradeManager(
 
         val method = when (trade.type) {
             TradeType.ExactOut -> buildMethodForExactOut(tokenIn, tokenOut, path, to, deadline, tradeData, trade)
-            TradeType.ExactIn -> {
-                if (tradeData.options.feeOnTransfer) {
-                    buildMethodForExactInSupportingFeeOnTransferTokens(tokenIn, tokenOut, path, to, deadline, tradeData, trade)
-                } else {
-                    buildMethodForExactIn(tokenIn, tokenOut, path, to, deadline, tradeData, trade)
-                }
-            }
+            TradeType.ExactIn -> buildMethodForExactIn(tokenIn, tokenOut, path, to, deadline, tradeData, trade)
         }
 
         val amount = if (tokenIn.isEther) {
@@ -116,18 +110,6 @@ class TradeManager(
         }
     }
 
-    private fun buildMethodForExactInSupportingFeeOnTransferTokens(tokenIn: Token, tokenOut: Token, path: List<Address>, to: Address, deadline: BigInteger, tradeData: TradeData, trade: Trade): ContractMethod {
-        val amountIn = trade.tokenAmountIn.rawAmount
-        val amountOutMin = tradeData.tokenAmountOutMin.rawAmount
-
-        return when {
-            tokenIn is Ether && tokenOut is Erc20 -> SwapExactETHForTokensSupportingFeeOnTransferTokensMethod(amountOutMin, path, to, deadline)
-            tokenIn is Erc20 && tokenOut is Ether -> SwapExactTokensForETHSupportingFeeOnTransferTokensMethod(amountIn, amountOutMin, path, to, deadline)
-            tokenIn is Erc20 && tokenOut is Erc20 -> SwapExactTokensForTokensSupportingFeeOnTransferTokensMethod(amountIn, amountOutMin, path, to, deadline)
-            else -> throw Exception("Invalid tokenIn/Out for swap!")
-        }
-    }
-
     private fun buildMethodForExactIn(tokenIn: Token, tokenOut: Token, path: List<Address>, to: Address, deadline: BigInteger, tradeData: TradeData, trade: Trade): ContractMethod {
         val amountIn = trade.tokenAmountIn.rawAmount
         val amountOutMin = tradeData.tokenAmountOutMin.rawAmount
@@ -147,8 +129,9 @@ class TradeManager(
                     NetworkType.EthMainNet,
                     NetworkType.EthRopsten,
                     NetworkType.EthKovan,
+                    NetworkType.EthGoerli,
                     NetworkType.EthRinkeby -> Address("0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D")
-                    NetworkType.BscMainNet -> Address("0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F")
+                    NetworkType.BscMainNet -> Address("0x10ED43C718714eb63d5aA57B78B54704E256024E")
                 }
 
         fun tradeExactIn(pairs: List<Pair>, tokenAmountIn: TokenAmount, tokenOut: Token, maxHops: Int = 3, currentPairs: List<Pair> = listOf(), originalTokenAmountIn: TokenAmount? = null): List<Trade> {

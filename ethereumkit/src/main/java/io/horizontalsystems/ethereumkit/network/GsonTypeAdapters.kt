@@ -14,12 +14,13 @@ import java.lang.reflect.Type
 import java.math.BigInteger
 import java.util.*
 
-class BigIntegerTypeAdapter : TypeAdapter<BigInteger?>() {
+class BigIntegerTypeAdapter(private val isHex: Boolean = true) : TypeAdapter<BigInteger?>() {
     override fun write(writer: JsonWriter, value: BigInteger?) {
         if (value == null) {
             writer.nullValue()
         } else {
-            writer.value(value.toHexString())
+            val stringValue = if (isHex) value.toHexString() else value.toString()
+            writer.value(stringValue)
         }
     }
 
@@ -28,16 +29,18 @@ class BigIntegerTypeAdapter : TypeAdapter<BigInteger?>() {
             reader.nextNull()
             return null
         }
-        return reader.nextString().hexStringToBigIntegerOrNull()
+        val stringValue = reader.nextString()
+        return if (isHex) stringValue.hexStringToBigIntegerOrNull() else BigInteger(stringValue)
     }
 }
 
-class LongTypeAdapter : TypeAdapter<Long?>() {
+class LongTypeAdapter(private val isHex: Boolean = true) : TypeAdapter<Long?>() {
     override fun write(writer: JsonWriter, value: Long?) {
         if (value == null) {
             writer.nullValue()
         } else {
-            writer.value(value.toHexString())
+            val stringValue = if (isHex) value.toHexString() else value.toString()
+            writer.value(stringValue)
         }
     }
 
@@ -46,16 +49,18 @@ class LongTypeAdapter : TypeAdapter<Long?>() {
             reader.nextNull()
             return null
         }
-        return reader.nextString().hexStringToLongOrNull()
+        val stringValue = reader.nextString()
+        return if (isHex) stringValue.hexStringToLongOrNull() else stringValue.toLongOrNull()
     }
 }
 
-class IntTypeAdapter : TypeAdapter<Int?>() {
+class IntTypeAdapter(private val isHex: Boolean = true) : TypeAdapter<Int?>() {
     override fun write(writer: JsonWriter, value: Int?) {
         if (value == null) {
             writer.nullValue()
         } else {
-            writer.value(value.toHexString())
+            val stringValue = if (isHex) value.toHexString() else value.toString()
+            writer.value(stringValue)
         }
     }
 
@@ -64,7 +69,8 @@ class IntTypeAdapter : TypeAdapter<Int?>() {
             reader.nextNull()
             return null
         }
-        return reader.nextString().hexStringToIntOrNull()
+        val stringValue = reader.nextString()
+        return if (isHex) stringValue.hexStringToIntOrNull() else stringValue.toIntOrNull()
     }
 }
 
