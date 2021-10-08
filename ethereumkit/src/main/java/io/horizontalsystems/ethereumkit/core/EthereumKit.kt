@@ -189,6 +189,8 @@ class EthereumKit(
                         transactionManager.handle(transaction)
                     }.map {
                         FullTransaction(it)
+                    }.map {
+                        decorationManager.decorateFullTransaction(it)
                     }
         }
     }
