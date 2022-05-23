@@ -20,7 +20,7 @@ import java.net.URL
 import java.util.logging.Logger
 
 class NodeApiProvider(
-        private val url: URL,
+        private val urls: List<URL>,
         override val blockTime: Long,
         private val gson: Gson,
         auth: String? = null
@@ -30,11 +30,8 @@ class NodeApiProvider(
     private val service: InfuraService
 
     init {
-        val loggingInterceptor = HttpLoggingInterceptor(object : HttpLoggingInterceptor.Logger {
-            override fun log(message: String) {
-                logger.info(message)
-            }
-        }).setLevel(HttpLoggingInterceptor.Level.BASIC)
+        val loggingInterceptor = HttpLoggingInterceptor { message -> logger.info(message) }
+                .setLevel(HttpLoggingInterceptor.Level.BASIC)
 
         val headersInterceptor = Interceptor { chain ->
             val requestBuilder = chain.request().newBuilder()
@@ -49,7 +46,7 @@ class NodeApiProvider(
                 .addInterceptor(headersInterceptor)
 
         val retrofit = Retrofit.Builder()
-                .baseUrl("$url/")
+                .baseUrl("${urls.first()}/")
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                 .addConverterFactory(ScalarsConverterFactory.create())
                 .addConverterFactory(GsonConverterFactory.create(gson))
@@ -59,19 +56,37 @@ class NodeApiProvider(
         service = retrofit.create(InfuraService::class.java)
     }
 
-    override val source: String = url.host
+    override val source: String = urls.first().host
 
-    override fun <T> single(rpc: JsonRpc<T>): Single<T> {
-        return service.single(url.toURI(), gson.toJson(rpc))
-                .map { response ->
-                    rpc.parseResponse(response, gson)
+    override fun <T> single(rpc: JsonRpc<T>): Single<T> =
+            Single.create { emitter ->
+                var error: Throwable = ApiProviderError.ApiUrlNotFound
+
+                for (url in urls) {
+                    try {
+                        val rpcResponse = service.single(url.toURI(), gson.toJson(rpc)).blockingGet()
+                        val response  = rpc.parseResponse(rpcResponse, gson)
+
+                        emitter.onSuccess(response)
+                        return@create
+                    } catch (throwable: Throwable) {
+                        error = throwable
+                        if (throwable is JsonRpc.ResponseError.RpcError) {
+                           break
+                        }
+                    }
                 }
-    }
+                emitter.onError(error)
+            }
 
     private interface InfuraService {
         @POST
         @Headers("Content-Type: application/json", "Accept: application/json")
         fun single(@Url uri: URI, @Body jsonRpc: String): Single<RpcResponse>
+    }
+
+    sealed class ApiProviderError : Throwable() {
+        object ApiUrlNotFound : ApiProviderError()
     }
 
 }

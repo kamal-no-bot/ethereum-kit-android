@@ -1,0 +1,985 @@
+{
+  "stringTable": {
+    "0": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a",
+    "1": "--target=armv7-none-linux-androideabi26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -fPIC -Wall -funsigned-char -Wextra -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info -fPIC",
+    "2": "--target=armv7-none-linux-androideabi26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1 -Din3_jni_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -fPIC -Wall -funsigned-char -Wextra -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info -fPIC",
+    "3": "--target=armv7-none-linux-androideabi26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC",
+    "4": "--target=armv7-none-linux-androideabi26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1 -D_POSIX_C_SOURCE=199309L -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -fPIC -Wall -funsigned-char -Wextra -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake",
+    "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/CMakeLists.txt",
+    "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/c/compiler.cmake",
+    "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/nano/CMakeLists.txt",
+    "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/CMakeLists.txt",
+    "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/basic/CMakeLists.txt",
+    "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/full/CMakeLists.txt",
+    "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/java/src/CMakeLists.txt",
+    "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/CMakeLists.txt",
+    "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/CMakeLists.txt",
+    "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/api/CMakeLists.txt",
+    "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/api/eth1/CMakeLists.txt",
+    "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/api/usn/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "evm-Debug-armeabi-v7a": {
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a\" evm",
+      "buildType": "debug",
+      "toolchain": "1333904422",
+      "abi": "armeabi-v7a",
+      "artifactName": "evm",
+      "files": [],
+      "headers": [],
+      "output": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/evm/outputs/libevm.a"
+    },
+    "core_o-Debug-armeabi-v7a": {
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a\" core_o",
+      "buildType": "debug",
+      "toolchain": "1333904422",
+      "abi": "armeabi-v7a",
+      "artifactName": "core_o",
+      "files": [
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/client/context.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/client/client.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/client/cache.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/client/nodelist.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/client/verifier.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/client/execute.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/client/client_init.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/util/debug.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/util/bytes.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/util/utils.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/util/scache.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/util/data.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/util/log.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/util/mem.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/util/stringbuilder.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/util/bitset.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": []
+    },
+    "crypto-Debug-armeabi-v7a": {
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a\" crypto",
+      "buildType": "debug",
+      "toolchain": "1333904422",
+      "abi": "armeabi-v7a",
+      "artifactName": "crypto",
+      "files": [],
+      "headers": [],
+      "output": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/crypto/outputs/libcrypto.a"
+    },
+    "eth_basic_o-Debug-armeabi-v7a": {
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a\" eth_basic_o",
+      "buildType": "debug",
+      "toolchain": "1333904422",
+      "abi": "armeabi-v7a",
+      "artifactName": "eth_basic_o",
+      "files": [
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/basic/eth_basic.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/basic/eth_getTransaction.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/basic/eth_getBlock.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/basic/eth_account.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/basic/eth_getLog.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/basic/trie.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/basic/signer.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/basic/filter.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": []
+    },
+    "tommath_o-Debug-armeabi-v7a": {
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a\" tommath_o",
+      "buildType": "debug",
+      "toolchain": "1333904422",
+      "abi": "armeabi-v7a",
+      "artifactName": "tommath_o",
+      "files": [
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_fast_mp_montgomery_reduce.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_fast_s_mp_mul_digs.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_fast_s_mp_mul_high_digs.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_fast_s_mp_sqr.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_2expt.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_abs.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_add.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_addmod.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_balance_mul.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_clamp.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_clear.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_clear_multi.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_cmp.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_cmp_d.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_cmp_mag.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_copy.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_count_bits.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_div.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_div_2.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_div_2d.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_exch.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_export.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_exptmod.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_grow.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_import.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_init.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_init_copy.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_init_multi.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_init_size.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_invmod.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_invmod_slow.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_iseven.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_lshd.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_mod.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_mod_2d.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_montgomery_calc_normalization.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_montgomery_setup.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_mul.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_mul_2.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_mul_2d.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_mul_d.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_mulmod.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_neg.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_read_unsigned_bin.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_reduce.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_reduce_2k_l.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_reduce_2k_setup_l.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_reduce_is_2k_l.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_reduce_setup.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_rshd.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_set.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_sqr.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_sqrmod.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_sub.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_submod.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_to_unsigned_bin.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_unsigned_bin_size.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_zero.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_reverse.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_s_mp_add.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_s_mp_exptmod.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_s_mp_mul_digs.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_s_mp_sub.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bncore.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/tommath.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/tommath_class.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/tommath_private.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/tommath_superclass.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ]
+    },
+    "usn_api_o-Debug-armeabi-v7a": {
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a\" usn_api_o",
+      "buildType": "debug",
+      "toolchain": "1333904422",
+      "abi": "armeabi-v7a",
+      "artifactName": "usn_api_o",
+      "files": [
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/api/usn/usn_api.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": []
+    },
+    "eth_basic-Debug-armeabi-v7a": {
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a\" eth_basic",
+      "buildType": "debug",
+      "toolchain": "1333904422",
+      "abi": "armeabi-v7a",
+      "artifactName": "eth_basic",
+      "files": [],
+      "headers": [],
+      "output": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/basic/outputs/libeth_basic.a"
+    },
+    "eth_api_o-Debug-armeabi-v7a": {
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a\" eth_api_o",
+      "buildType": "debug",
+      "toolchain": "1333904422",
+      "abi": "armeabi-v7a",
+      "artifactName": "eth_api_o",
+      "files": [
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/api/eth1/eth_api.c",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/api/eth1/abi.c",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/api/eth1/key.c",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/api/eth1/rpc_api.c",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/api/eth1/ens.c",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": []
+    },
+    "eth_api-Debug-armeabi-v7a": {
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a\" eth_api",
+      "buildType": "debug",
+      "toolchain": "1333904422",
+      "abi": "armeabi-v7a",
+      "artifactName": "eth_api",
+      "files": [],
+      "headers": [],
+      "output": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/api/outputs/eth1/libeth_api.a"
+    },
+    "init-Debug-armeabi-v7a": {
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a\" init",
+      "buildType": "debug",
+      "toolchain": "1333904422",
+      "abi": "armeabi-v7a",
+      "artifactName": "init",
+      "files": [],
+      "headers": [],
+      "output": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/core/outputs/libinit.a"
+    },
+    "eth_full-Debug-armeabi-v7a": {
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a\" eth_full",
+      "buildType": "debug",
+      "toolchain": "1333904422",
+      "abi": "armeabi-v7a",
+      "artifactName": "eth_full",
+      "files": [],
+      "headers": [],
+      "output": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/full/outputs/libeth_full.a"
+    },
+    "eth_nano-Debug-armeabi-v7a": {
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a\" eth_nano",
+      "buildType": "debug",
+      "toolchain": "1333904422",
+      "abi": "armeabi-v7a",
+      "artifactName": "eth_nano",
+      "files": [],
+      "headers": [],
+      "output": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/nano/outputs/libeth_nano.a"
+    },
+    "tommath-Debug-armeabi-v7a": {
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a\" tommath",
+      "buildType": "debug",
+      "toolchain": "1333904422",
+      "abi": "armeabi-v7a",
+      "artifactName": "tommath",
+      "files": [],
+      "headers": [],
+      "output": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/libtommath.a"
+    },
+    "eth_full_o-Debug-armeabi-v7a": {
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a\" eth_full_o",
+      "buildType": "debug",
+      "toolchain": "1333904422",
+      "abi": "armeabi-v7a",
+      "artifactName": "eth_full_o",
+      "files": [
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/full/eth_full.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": []
+    },
+    "api_utils_o-Debug-armeabi-v7a": {
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a\" api_utils_o",
+      "buildType": "debug",
+      "toolchain": "1333904422",
+      "abi": "armeabi-v7a",
+      "artifactName": "api_utils_o",
+      "files": [
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/api/utils/api_utils.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": []
+    },
+    "usn_api-Debug-armeabi-v7a": {
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a\" usn_api",
+      "buildType": "debug",
+      "toolchain": "1333904422",
+      "abi": "armeabi-v7a",
+      "artifactName": "usn_api",
+      "files": [],
+      "headers": [],
+      "output": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/api/outputs/usn/libusn_api.a"
+    },
+    "eth_nano_o-Debug-armeabi-v7a": {
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a\" eth_nano_o",
+      "buildType": "debug",
+      "toolchain": "1333904422",
+      "abi": "armeabi-v7a",
+      "artifactName": "eth_nano_o",
+      "files": [
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/nano/eth_nano.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/nano/rlp.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/nano/merkle.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/nano/serialize.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/nano/blockheader.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/nano/signature.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/nano/txreceipt.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/nano/registry.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/nano/chainspec.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": []
+    },
+    "core-Debug-armeabi-v7a": {
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a\" core",
+      "buildType": "debug",
+      "toolchain": "1333904422",
+      "abi": "armeabi-v7a",
+      "artifactName": "core",
+      "files": [],
+      "headers": [],
+      "output": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/core/outputs/libcore.a"
+    },
+    "in3_jni-Debug-armeabi-v7a": {
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a\" in3_jni",
+      "buildType": "debug",
+      "toolchain": "1333904422",
+      "abi": "armeabi-v7a",
+      "artifactName": "in3_jni",
+      "files": [
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/java/src/in3_jni.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/build/intermediates/cmake/debug/obj/armeabi-v7a/libin3_jni.so",
+      "runtimeFiles": []
+    },
+    "evm_o-Debug-armeabi-v7a": {
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a\" evm_o",
+      "buildType": "debug",
+      "toolchain": "1333904422",
+      "abi": "armeabi-v7a",
+      "artifactName": "evm_o",
+      "files": [
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/evm.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/opcodes.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/big.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/call.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/code.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/env.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/evm_mem.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/accounts.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/gas.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/pre_ec.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/pre_blake2.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/precompiled.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": []
+    },
+    "crypto_o-Debug-armeabi-v7a": {
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a\" crypto_o",
+      "buildType": "debug",
+      "toolchain": "1333904422",
+      "abi": "armeabi-v7a",
+      "artifactName": "crypto_o",
+      "files": [
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/ecdsa.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/address.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/bignum.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/rand.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/hmac.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/secp256k1.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/memzero.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/sha3.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/ripemd160.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/base58.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/hasher.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/sha2.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/blake256.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/blake2b.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/groestl.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/pbkdf2.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/aes/aes_modes.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/aes/aescrypt.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/aes/aeskey.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/aes/aestab.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": []
+    },
+    "api_utils-Debug-armeabi-v7a": {
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a\" api_utils",
+      "buildType": "debug",
+      "toolchain": "1333904422",
+      "abi": "armeabi-v7a",
+      "artifactName": "api_utils",
+      "files": [],
+      "headers": [],
+      "output": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/api/outputs/libapi_utils.a"
+    },
+    "init_o-Debug-armeabi-v7a": {
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a\" init_o",
+      "buildType": "debug",
+      "toolchain": "1333904422",
+      "abi": "armeabi-v7a",
+      "artifactName": "init_o",
+      "files": [
+        {
+          "src": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/in3_init.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": []
+    }
+  },
+  "toolchains": {
+    "1333904422": {
+      "cCompilerExecutable": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

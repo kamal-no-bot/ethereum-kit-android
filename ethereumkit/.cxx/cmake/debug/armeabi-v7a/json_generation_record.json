@@ -1,0 +1,632 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 26 min SDK version: armeabi-v7a",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "No CMake version was specified in build.gradle. Using default version 3.10.2.",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Trying to locate CMake in local SDK repository.",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "- CMake found in SDK at \u0027/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404\u0027 had version \u00273.10.2\u0027",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "rebuilding JSON /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/android_gradle_build.json due to:",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "- expected json /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/android_gradle_build.json file is not present, will remove stale json folder",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "- missing previous command file /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/build_command.txt, will remove stale json folder",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "- command changed from previous, will remove stale json folder",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "removing stale contents from \u0027/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a\u0027",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a\u0027",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "executing cmake Executable : /Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake\narguments : \n-H/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit\n-DCMAKE_FIND_ROOT_PATH\u003d/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/prefab/armeabi-v7a/prefab\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DCMAKE_TOOLCHAIN_FILE\u003d/Users/belga/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake\n-DANDROID_ABI\u003darmeabi-v7a\n-DANDROID_NDK\u003d/Users/belga/Library/Android/sdk/ndk/21.1.6352462\n-DANDROID_PLATFORM\u003dandroid-26\n-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi-v7a\n-DCMAKE_ANDROID_NDK\u003d/Users/belga/Library/Android/sdk/ndk/21.1.6352462\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/build/intermediates/cmake/debug/obj/armeabi-v7a\n-DCMAKE_MAKE_PROGRAM\u003d/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d26\n-B/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a\n-GNinja\njvmArgs : \n\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "[\u003d\u003d \"CMake Server\" \u003d\u003d[\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"supportedProtocolVersions\":[{\"isExperimental\":true,\"major\":1,\"minor\":1}],\"type\":\"hello\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "]\u003d\u003d \"CMake Server\" \u003d\u003d]\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"handshake\",\n  \"cookie\": \"gradle-cmake-cookie\",\n  \"protocolVersion\": {\n    \"isExperimental\": true,\n    \"major\": 1,\n    \"minor\": 1\n  },\n  \"sourceDirectory\": \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit\",\n  \"buildDirectory\": \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a\",\n  \"generator\": \"Ninja\"\n}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"gradle-cmake-cookie\",\"inReplyTo\":\"handshake\",\"type\":\"reply\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"configure\",\n  \"cacheArguments\": [\n    \"\",\n    \"-DCMAKE_FIND_ROOT_PATH\\u003d/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/prefab/armeabi-v7a/prefab\",\n    \"-DCMAKE_BUILD_TYPE\\u003dDebug\",\n    \"-DCMAKE_TOOLCHAIN_FILE\\u003d/Users/belga/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake\",\n    \"-DANDROID_ABI\\u003darmeabi-v7a\",\n    \"-DANDROID_NDK\\u003d/Users/belga/Library/Android/sdk/ndk/21.1.6352462\",\n    \"-DANDROID_PLATFORM\\u003dandroid-26\",\n    \"-DCMAKE_ANDROID_ARCH_ABI\\u003darmeabi-v7a\",\n    \"-DCMAKE_ANDROID_NDK\\u003d/Users/belga/Library/Android/sdk/ndk/21.1.6352462\",\n    \"-DCMAKE_EXPORT_COMPILE_COMMANDS\\u003dON\",\n    \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\\u003d/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/build/intermediates/cmake/debug/obj/armeabi-v7a\",\n    \"-DCMAKE_MAKE_PROGRAM\\u003d/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja\",\n    \"-DCMAKE_SYSTEM_NAME\\u003dAndroid\",\n    \"-DCMAKE_SYSTEM_VERSION\\u003d26\"\n  ]\n}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: /Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang\",\"type\":\"message\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working C compiler: /Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":33,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: /Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works\",\"type\":\"message\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working C compiler: /Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info\",\"type\":\"message\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compiler ABI info",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":65,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compiler ABI info - done",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features\",\"type\":\"message\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compile features",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":96,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":126,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":155,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features - done\",\"type\":\"message\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compile features - done",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: /Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++\",\"type\":\"message\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working CXX compiler: /Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":184,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: /Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works\",\"type\":\"message\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working CXX compiler: /Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info\",\"type\":\"message\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compiler ABI info",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":211,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compiler ABI info - done",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features\",\"type\":\"message\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compile features",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":237,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":262,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":287,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":311,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features - done\",\"type\":\"message\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compile features - done",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Disable math optimizations (optimised for executable size)\",\"type\":\"message\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Disable math optimizations (optimised for executable size)",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":334,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":356,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":377,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":398,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":418,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":438,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":456,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":474,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":492,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":509,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":525,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":908,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":916,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":924,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":933,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":941,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":950,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":958,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":966,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":974,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":983,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":991,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Configuring done\",\"type\":\"message\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Configuring done",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"type\":\"reply\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"compute\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":83,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":166,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":250,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":333,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":416,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":500,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":583,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":666,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":750,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":833,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":916,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"message\":\"Generating done\",\"type\":\"message\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Generating done",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"type\":\"reply\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"cmakeInputs\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"buildFiles\":[{\"isCMake\":true,\"isTemporary\":false,\"sources\":[\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\"]},{\"isCMake\":false,\"isTemporary\":false,\"sources\":[\"CMakeLists.txt\",\"/Users/belga/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake\",\"/Users/belga/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake\",\"/Users/belga/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake\",\"in3-c/c/src/core/CMakeLists.txt\",\"c/compiler.cmake\",\"in3-c/c/src/verifier/eth1/nano/CMakeLists.txt\",\"c/compiler.cmake\",\"in3-c/c/src/verifier/eth1/evm/CMakeLists.txt\",\"c/compiler.cmake\",\"in3-c/c/src/verifier/eth1/basic/CMakeLists.txt\",\"c/compiler.cmake\",\"in3-c/c/src/verifier/eth1/full/CMakeLists.txt\",\"c/compiler.cmake\",\"in3-c/java/src/CMakeLists.txt\",\"c/compiler.cmake\",\"in3-c/c/src/third-party/crypto/CMakeLists.txt\",\"in3-c/c/src/third-party/tommath/CMakeLists.txt\",\"in3-c/c/src/api/CMakeLists.txt\",\"in3-c/c/src/api/eth1/CMakeLists.txt\",\"c/compiler.cmake\",\"in3-c/c/src/api/usn/CMakeLists.txt\",\"c/compiler.cmake\"]},{\"isCMake\":false,\"isTemporary\":true,\"sources\":[\".cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake\",\".cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\".cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\",\".cxx/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.c\",\".cxx/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.c\",\".cxx/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.c\",\".cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\".cxx/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.cxx\",\".cxx/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.cxx\",\".cxx/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.cxx\",\".cxx/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.cxx\",\".cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\"]}],\"cmakeRootDirectory\":\"/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10\",\"cookie\":\"\",\"inReplyTo\":\"cmakeInputs\",\"sourceDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit\",\"type\":\"reply\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"codemodel\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"configurations\":[{\"name\":\"Debug\",\"projects\":[{\"buildDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a\",\"name\":\"Project\",\"sourceDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit\",\"targets\":[{\"artifacts\":[\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/core/outputs/libcore.a\"],\"buildDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/core/outputs\",\"fileGroups\":[{\"isGenerated\":true,\"sources\":[\"../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/core/outputs/CMakeFiles/core_o.dir/client/context.c.o\",\"../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/core/outputs/CMakeFiles/core_o.dir/client/client.c.o\",\"../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/core/outputs/CMakeFiles/core_o.dir/client/cache.c.o\",\"../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/core/outputs/CMakeFiles/core_o.dir/client/nodelist.c.o\",\"../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/core/outputs/CMakeFiles/core_o.dir/client/verifier.c.o\",\"../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/core/outputs/CMakeFiles/core_o.dir/client/execute.c.o\",\"../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/core/outputs/CMakeFiles/core_o.dir/client/client_init.c.o\",\"../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/core/outputs/CMakeFiles/core_o.dir/util/debug.c.o\",\"../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/core/outputs/CMakeFiles/core_o.dir/util/bytes.c.o\",\"../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/core/outputs/CMakeFiles/core_o.dir/util/utils.c.o\",\"../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/core/outputs/CMakeFiles/core_o.dir/util/scache.c.o\",\"../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/core/outputs/CMakeFiles/core_o.dir/util/data.c.o\",\"../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/core/outputs/CMakeFiles/core_o.dir/util/log.c.o\",\"../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/core/outputs/CMakeFiles/core_o.dir/util/mem.c.o\",\"../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/core/outputs/CMakeFiles/core_o.dir/util/stringbuilder.c.o\",\"../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/core/outputs/CMakeFiles/core_o.dir/util/bitset.c.o\"]}],\"fullName\":\"libcore.a\",\"linkerLanguage\":\"C\",\"name\":\"core\",\"sourceDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core\",\"sysroot\":\"/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"},{\"artifacts\":[\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/core/outputs/libinit.a\"],\"buildDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/core/outputs\",\"fileGroups\":[{\"isGenerated\":true,\"sources\":[\"../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/core/outputs/CMakeFiles/init_o.dir/__/verifier/in3_init.c.o\"]}],\"fullName\":\"libinit.a\",\"linkerLanguage\":\"C\",\"name\":\"init\",\"sourceDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core\",\"sysroot\":\"/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"},{\"buildDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/core/outputs\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -march\u003darmv7-a -mthumb -Wformat -Werror\u003dformat-security   -fPIC -Wall -funsigned-char -Wextra  -std\u003dc99 -D__FILENAME__\u003dnone -Werror\u003dvla -O0 -fno-limit-debug-info  -fPIC  \",\"defines\":[\"ERR_MSG\",\"ETH_API\",\"ETH_BASIC\",\"ETH_FULL\",\"ETH_NANO\",\"IN3_EXPORT_TEST\u003dstatic\",\"IN3_MATH_LITE\",\"USE_PRECOMPUTED_CP\u003d1\"],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"../verifier/in3_init.c\"]}],\"fullName\":\"init_o\",\"name\":\"init_o\",\"sourceDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core\",\"type\":\"OBJECT_LIBRARY\"},{\"buildDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/core/outputs\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -march\u003darmv7-a -mthumb -Wformat -Werror\u003dformat-security   -fPIC -Wall -funsigned-char -Wextra  -std\u003dc99 -D__FILENAME__\u003dnone -Werror\u003dvla -O0 -fno-limit-debug-info  -fPIC  \",\"defines\":[\"ERR_MSG\",\"ETH_API\",\"ETH_BASIC\",\"ETH_FULL\",\"ETH_NANO\",\"IN3_EXPORT_TEST\u003dstatic\",\"IN3_MATH_LITE\",\"USE_PRECOMPUTED_CP\u003d1\"],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"client/context.c\",\"client/client.c\",\"client/cache.c\",\"client/nodelist.c\",\"client/verifier.c\",\"client/execute.c\",\"client/client_init.c\",\"util/debug.c\",\"util/bytes.c\",\"util/utils.c\",\"util/scache.c\",\"util/data.c\",\"util/log.c\",\"util/mem.c\",\"util/stringbuilder.c\",\"util/bitset.c\"]}],\"fullName\":\"core_o\",\"name\":\"core_o\",\"sourceDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core\",\"type\":\"OBJECT_LIBRARY\"},{\"artifacts\":[\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/nano/outputs/libeth_nano.a\"],\"buildDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/nano/outputs\",\"fileGroups\":[{\"isGenerated\":true,\"sources\":[\"../../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/nano/outputs/CMakeFiles/eth_nano_o.dir/eth_nano.c.o\",\"../../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/nano/outputs/CMakeFiles/eth_nano_o.dir/rlp.c.o\",\"../../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/nano/outputs/CMakeFiles/eth_nano_o.dir/merkle.c.o\",\"../../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/nano/outputs/CMakeFiles/eth_nano_o.dir/serialize.c.o\",\"../../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/nano/outputs/CMakeFiles/eth_nano_o.dir/blockheader.c.o\",\"../../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/nano/outputs/CMakeFiles/eth_nano_o.dir/signature.c.o\",\"../../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/nano/outputs/CMakeFiles/eth_nano_o.dir/txreceipt.c.o\",\"../../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/nano/outputs/CMakeFiles/eth_nano_o.dir/registry.c.o\",\"../../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/nano/outputs/CMakeFiles/eth_nano_o.dir/chainspec.c.o\"]}],\"fullName\":\"libeth_nano.a\",\"linkerLanguage\":\"C\",\"name\":\"eth_nano\",\"sourceDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/nano\",\"sysroot\":\"/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"},{\"buildDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/nano/outputs\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -march\u003darmv7-a -mthumb -Wformat -Werror\u003dformat-security   -fPIC -Wall -funsigned-char -Wextra  -std\u003dc99 -D__FILENAME__\u003dnone -Werror\u003dvla -O0 -fno-limit-debug-info  -fPIC  \",\"defines\":[\"ERR_MSG\",\"ETH_API\",\"ETH_BASIC\",\"ETH_FULL\",\"ETH_NANO\",\"IN3_EXPORT_TEST\u003dstatic\",\"IN3_MATH_LITE\",\"USE_PRECOMPUTED_CP\u003d1\"],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"eth_nano.c\",\"rlp.c\",\"merkle.c\",\"serialize.c\",\"blockheader.c\",\"signature.c\",\"txreceipt.c\",\"registry.c\",\"chainspec.c\"]}],\"fullName\":\"eth_nano_o\",\"name\":\"eth_nano_o\",\"sourceDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/nano\",\"type\":\"OBJECT_LIBRARY\"},{\"artifacts\":[\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/evm/outputs/libevm.a\"],\"buildDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/evm/outputs\",\"fileGroups\":[{\"isGenerated\":true,\"sources\":[\"../../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/evm/outputs/CMakeFiles/evm_o.dir/evm.c.o\",\"../../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/evm/outputs/CMakeFiles/evm_o.dir/opcodes.c.o\",\"../../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/evm/outputs/CMakeFiles/evm_o.dir/big.c.o\",\"../../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/evm/outputs/CMakeFiles/evm_o.dir/call.c.o\",\"../../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/evm/outputs/CMakeFiles/evm_o.dir/code.c.o\",\"../../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/evm/outputs/CMakeFiles/evm_o.dir/env.c.o\",\"../../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/evm/outputs/CMakeFiles/evm_o.dir/evm_mem.c.o\",\"../../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/evm/outputs/CMakeFiles/evm_o.dir/accounts.c.o\",\"../../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/evm/outputs/CMakeFiles/evm_o.dir/gas.c.o\",\"../../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/evm/outputs/CMakeFiles/evm_o.dir/pre_ec.c.o\",\"../../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/evm/outputs/CMakeFiles/evm_o.dir/pre_blake2.c.o\",\"../../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/evm/outputs/CMakeFiles/evm_o.dir/precompiled.c.o\"]}],\"fullName\":\"libevm.a\",\"linkerLanguage\":\"C\",\"name\":\"evm\",\"sourceDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm\",\"sysroot\":\"/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"},{\"buildDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/evm/outputs\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -march\u003darmv7-a -mthumb -Wformat -Werror\u003dformat-security   -fPIC -Wall -funsigned-char -Wextra  -std\u003dc99 -D__FILENAME__\u003dnone -Werror\u003dvla -O0 -fno-limit-debug-info  -fPIC  \",\"defines\":[\"ERR_MSG\",\"ETH_API\",\"ETH_BASIC\",\"ETH_FULL\",\"ETH_NANO\",\"IN3_EXPORT_TEST\u003dstatic\",\"IN3_MATH_LITE\",\"USE_PRECOMPUTED_CP\u003d1\"],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"evm.c\",\"opcodes.c\",\"big.c\",\"call.c\",\"code.c\",\"env.c\",\"evm_mem.c\",\"accounts.c\",\"gas.c\",\"pre_ec.c\",\"pre_blake2.c\",\"precompiled.c\"]}],\"fullName\":\"evm_o\",\"name\":\"evm_o\",\"sourceDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm\",\"type\":\"OBJECT_LIBRARY\"},{\"artifacts\":[\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/basic/outputs/libeth_basic.a\"],\"buildDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/basic/outputs\",\"fileGroups\":[{\"isGenerated\":true,\"sources\":[\"../../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/basic/outputs/CMakeFiles/eth_basic_o.dir/eth_basic.c.o\",\"../../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/basic/outputs/CMakeFiles/eth_basic_o.dir/eth_getTransaction.c.o\",\"../../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/basic/outputs/CMakeFiles/eth_basic_o.dir/eth_getBlock.c.o\",\"../../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/basic/outputs/CMakeFiles/eth_basic_o.dir/eth_account.c.o\",\"../../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/basic/outputs/CMakeFiles/eth_basic_o.dir/eth_getLog.c.o\",\"../../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/basic/outputs/CMakeFiles/eth_basic_o.dir/trie.c.o\",\"../../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/basic/outputs/CMakeFiles/eth_basic_o.dir/signer.c.o\",\"../../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/basic/outputs/CMakeFiles/eth_basic_o.dir/filter.c.o\"]}],\"fullName\":\"libeth_basic.a\",\"linkerLanguage\":\"C\",\"name\":\"eth_basic\",\"sourceDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/basic\",\"sysroot\":\"/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"},{\"buildDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/basic/outputs\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -march\u003darmv7-a -mthumb -Wformat -Werror\u003dformat-security   -fPIC -Wall -funsigned-char -Wextra  -std\u003dc99 -D__FILENAME__\u003dnone -Werror\u003dvla -O0 -fno-limit-debug-info  -fPIC  \",\"defines\":[\"ERR_MSG\",\"ETH_API\",\"ETH_BASIC\",\"ETH_FULL\",\"ETH_NANO\",\"IN3_EXPORT_TEST\u003dstatic\",\"IN3_MATH_LITE\",\"USE_PRECOMPUTED_CP\u003d1\"],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"eth_basic.c\",\"eth_getTransaction.c\",\"eth_getBlock.c\",\"eth_account.c\",\"eth_getLog.c\",\"trie.c\",\"signer.c\",\"filter.c\"]}],\"fullName\":\"eth_basic_o\",\"name\":\"eth_basic_o\",\"sourceDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/basic\",\"type\":\"OBJECT_LIBRARY\"},{\"artifacts\":[\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/full/outputs/libeth_full.a\"],\"buildDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/full/outputs\",\"fileGroups\":[{\"isGenerated\":true,\"sources\":[\"../../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/full/outputs/CMakeFiles/eth_full_o.dir/eth_full.c.o\"]}],\"fullName\":\"libeth_full.a\",\"linkerLanguage\":\"C\",\"name\":\"eth_full\",\"sourceDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/full\",\"sysroot\":\"/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"},{\"buildDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/verifier/eth1/full/outputs\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -march\u003darmv7-a -mthumb -Wformat -Werror\u003dformat-security   -fPIC -Wall -funsigned-char -Wextra  -std\u003dc99 -D__FILENAME__\u003dnone -Werror\u003dvla -O0 -fno-limit-debug-info  -fPIC  \",\"defines\":[\"ERR_MSG\",\"ETH_API\",\"ETH_BASIC\",\"ETH_FULL\",\"ETH_NANO\",\"IN3_EXPORT_TEST\u003dstatic\",\"IN3_MATH_LITE\",\"USE_PRECOMPUTED_CP\u003d1\"],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"eth_full.c\"]}],\"fullName\":\"eth_full_o\",\"name\":\"eth_full_o\",\"sourceDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/full\",\"type\":\"OBJECT_LIBRARY\"},{\"artifacts\":[\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/build/intermediates/cmake/debug/obj/armeabi-v7a/libin3_jni.so\"],\"buildDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/java/src/outputs\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -march\u003darmv7-a -mthumb -Wformat -Werror\u003dformat-security   -fPIC -Wall -funsigned-char -Wextra  -std\u003dc99 -D__FILENAME__\u003dnone -Werror\u003dvla -O0 -fno-limit-debug-info  -fPIC  \",\"defines\":[\"ERR_MSG\",\"ETH_API\",\"ETH_BASIC\",\"ETH_FULL\",\"ETH_NANO\",\"IN3_EXPORT_TEST\u003dstatic\",\"IN3_MATH_LITE\",\"USE_PRECOMPUTED_CP\u003d1\",\"in3_jni_EXPORTS\"],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"in3_jni.c\"]}],\"fullName\":\"libin3_jni.so\",\"linkFlags\":\"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments\",\"linkLibraries\":\"../../../c/src/core/outputs/libinit.a ../../../c/src/verifier/eth1/full/outputs/libeth_full.a ../../../c/src/verifier/eth1/evm/outputs/libevm.a ../../../c/src/verifier/eth1/basic/outputs/libeth_basic.a ../../../c/src/third-party/tommath/outputs/libtommath.a ../../../c/src/api/outputs/eth1/libeth_api.a ../../../c/src/verifier/eth1/nano/outputs/libeth_nano.a ../../../c/src/core/outputs/libcore.a ../../../c/src/third-party/crypto/outputs/libcrypto.a ../../../c/src/api/outputs/libapi_utils.a -latomic -lm\",\"linkerLanguage\":\"C\",\"name\":\"in3_jni\",\"sourceDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/java/src\",\"sysroot\":\"/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"SHARED_LIBRARY\"},{\"artifacts\":[\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/crypto/outputs/libcrypto.a\"],\"buildDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/crypto/outputs\",\"fileGroups\":[{\"isGenerated\":true,\"sources\":[\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/ecdsa.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/address.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/bignum.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/rand.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/hmac.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/secp256k1.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/memzero.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/sha3.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/ripemd160.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/base58.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/hasher.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/sha2.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/blake256.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/blake2b.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/groestl.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/pbkdf2.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/aes/aes_modes.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/aes/aescrypt.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/aes/aeskey.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/aes/aestab.c.o\"]}],\"fullName\":\"libcrypto.a\",\"linkerLanguage\":\"C\",\"name\":\"crypto\",\"sourceDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto\",\"sysroot\":\"/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"},{\"buildDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/crypto/outputs\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -march\u003darmv7-a -mthumb -Wformat -Werror\u003dformat-security  -O0 -fno-limit-debug-info  -fPIC  \",\"defines\":[\"ERR_MSG\",\"ETH_API\",\"ETH_BASIC\",\"ETH_FULL\",\"ETH_NANO\",\"IN3_EXPORT_TEST\u003dstatic\",\"IN3_MATH_LITE\",\"USE_PRECOMPUTED_CP\u003d1\"],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"ecdsa.c\",\"address.c\",\"bignum.c\",\"rand.c\",\"hmac.c\",\"secp256k1.c\",\"memzero.c\",\"sha3.c\",\"ripemd160.c\",\"base58.c\",\"hasher.c\",\"sha2.c\",\"blake256.c\",\"blake2b.c\",\"groestl.c\",\"pbkdf2.c\",\"aes/aes_modes.c\",\"aes/aescrypt.c\",\"aes/aeskey.c\",\"aes/aestab.c\"]}],\"fullName\":\"crypto_o\",\"name\":\"crypto_o\",\"sourceDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto\",\"type\":\"OBJECT_LIBRARY\"},{\"artifacts\":[\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/libtommath.a\"],\"buildDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs\",\"fileGroups\":[{\"isGenerated\":true,\"sources\":[\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_fast_mp_montgomery_reduce.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_fast_s_mp_mul_digs.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_fast_s_mp_mul_high_digs.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_fast_s_mp_sqr.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_2expt.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_abs.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_add.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_addmod.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_balance_mul.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_clamp.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_clear.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_clear_multi.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_cmp.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_cmp_d.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_cmp_mag.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_copy.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_count_bits.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_div.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_div_2.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_div_2d.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_exch.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_export.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_exptmod.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_grow.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_import.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_init.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_init_copy.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_init_multi.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_init_size.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_invmod.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_invmod_slow.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_iseven.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_lshd.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_mod.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_mod_2d.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_montgomery_calc_normalization.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_montgomery_setup.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_mul.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_mul_2.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_mul_2d.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_mul_d.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_mulmod.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_neg.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_read_unsigned_bin.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_reduce.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_reduce_2k_l.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_reduce_2k_setup_l.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_reduce_is_2k_l.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_reduce_setup.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_rshd.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_set.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_sqr.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_sqrmod.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_sub.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_submod.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_to_unsigned_bin.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_unsigned_bin_size.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_zero.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_reverse.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_s_mp_add.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_s_mp_exptmod.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_s_mp_mul_digs.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_s_mp_sub.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bncore.c.o\"]}],\"fullName\":\"libtommath.a\",\"linkerLanguage\":\"C\",\"name\":\"tommath\",\"sourceDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath\",\"sysroot\":\"/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"},{\"buildDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/third-party/tommath/outputs\",\"fileGroups\":[{\"isGenerated\":false,\"sources\":[\"tommath.h\",\"tommath_class.h\",\"tommath_private.h\",\"tommath_superclass.h\"]},{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -march\u003darmv7-a -mthumb -Wformat -Werror\u003dformat-security  -O0 -fno-limit-debug-info  -fPIC  \",\"defines\":[\"ERR_MSG\",\"ETH_API\",\"ETH_BASIC\",\"ETH_FULL\",\"ETH_NANO\",\"IN3_EXPORT_TEST\u003dstatic\",\"IN3_MATH_LITE\",\"USE_PRECOMPUTED_CP\u003d1\"],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"bn_fast_mp_montgomery_reduce.c\",\"bn_fast_s_mp_mul_digs.c\",\"bn_fast_s_mp_mul_high_digs.c\",\"bn_fast_s_mp_sqr.c\",\"bn_mp_2expt.c\",\"bn_mp_abs.c\",\"bn_mp_add.c\",\"bn_mp_addmod.c\",\"bn_mp_balance_mul.c\",\"bn_mp_clamp.c\",\"bn_mp_clear.c\",\"bn_mp_clear_multi.c\",\"bn_mp_cmp.c\",\"bn_mp_cmp_d.c\",\"bn_mp_cmp_mag.c\",\"bn_mp_copy.c\",\"bn_mp_count_bits.c\",\"bn_mp_div.c\",\"bn_mp_div_2.c\",\"bn_mp_div_2d.c\",\"bn_mp_exch.c\",\"bn_mp_export.c\",\"bn_mp_exptmod.c\",\"bn_mp_grow.c\",\"bn_mp_import.c\",\"bn_mp_init.c\",\"bn_mp_init_copy.c\",\"bn_mp_init_multi.c\",\"bn_mp_init_size.c\",\"bn_mp_invmod.c\",\"bn_mp_invmod_slow.c\",\"bn_mp_iseven.c\",\"bn_mp_lshd.c\",\"bn_mp_mod.c\",\"bn_mp_mod_2d.c\",\"bn_mp_montgomery_calc_normalization.c\",\"bn_mp_montgomery_setup.c\",\"bn_mp_mul.c\",\"bn_mp_mul_2.c\",\"bn_mp_mul_2d.c\",\"bn_mp_mul_d.c\",\"bn_mp_mulmod.c\",\"bn_mp_neg.c\",\"bn_mp_read_unsigned_bin.c\",\"bn_mp_reduce.c\",\"bn_mp_reduce_2k_l.c\",\"bn_mp_reduce_2k_setup_l.c\",\"bn_mp_reduce_is_2k_l.c\",\"bn_mp_reduce_setup.c\",\"bn_mp_rshd.c\",\"bn_mp_set.c\",\"bn_mp_sqr.c\",\"bn_mp_sqrmod.c\",\"bn_mp_sub.c\",\"bn_mp_submod.c\",\"bn_mp_to_unsigned_bin.c\",\"bn_mp_unsigned_bin_size.c\",\"bn_mp_zero.c\",\"bn_reverse.c\",\"bn_s_mp_add.c\",\"bn_s_mp_exptmod.c\",\"bn_s_mp_mul_digs.c\",\"bn_s_mp_sub.c\",\"bncore.c\"]}],\"fullName\":\"tommath_o\",\"name\":\"tommath_o\",\"sourceDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath\",\"type\":\"OBJECT_LIBRARY\"},{\"artifacts\":[\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/api/outputs/libapi_utils.a\"],\"buildDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/api/outputs\",\"fileGroups\":[{\"isGenerated\":true,\"sources\":[\"../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/api/outputs/CMakeFiles/api_utils_o.dir/utils/api_utils.c.o\"]}],\"fullName\":\"libapi_utils.a\",\"linkerLanguage\":\"C\",\"name\":\"api_utils\",\"sourceDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/api\",\"sysroot\":\"/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"},{\"buildDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/api/outputs\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -march\u003darmv7-a -mthumb -Wformat -Werror\u003dformat-security  -O0 -fno-limit-debug-info  -fPIC  \",\"defines\":[\"ERR_MSG\",\"ETH_API\",\"ETH_BASIC\",\"ETH_FULL\",\"ETH_NANO\",\"IN3_EXPORT_TEST\u003dstatic\",\"IN3_MATH_LITE\",\"USE_PRECOMPUTED_CP\u003d1\"],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"utils/api_utils.c\"]}],\"fullName\":\"api_utils_o\",\"name\":\"api_utils_o\",\"sourceDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/api\",\"type\":\"OBJECT_LIBRARY\"},{\"artifacts\":[\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/api/outputs/eth1/libeth_api.a\"],\"buildDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/api/outputs/eth1\",\"fileGroups\":[{\"isGenerated\":true,\"sources\":[\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/api/outputs/eth1/CMakeFiles/eth_api_o.dir/eth_api.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/api/outputs/eth1/CMakeFiles/eth_api_o.dir/abi.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/api/outputs/eth1/CMakeFiles/eth_api_o.dir/key.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/api/outputs/eth1/CMakeFiles/eth_api_o.dir/rpc_api.c.o\",\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/api/outputs/eth1/CMakeFiles/eth_api_o.dir/ens.c.o\"]}],\"fullName\":\"libeth_api.a\",\"linkerLanguage\":\"C\",\"name\":\"eth_api\",\"sourceDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/api/eth1\",\"sysroot\":\"/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"},{\"buildDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/api/outputs/eth1\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -march\u003darmv7-a -mthumb -Wformat -Werror\u003dformat-security   -fPIC -Wall -funsigned-char -Wextra  -std\u003dc99 -D__FILENAME__\u003dnone -Werror\u003dvla -O0 -fno-limit-debug-info  -fPIC  \",\"defines\":[\"ERR_MSG\",\"ETH_API\",\"ETH_BASIC\",\"ETH_FULL\",\"ETH_NANO\",\"IN3_EXPORT_TEST\u003dstatic\",\"IN3_MATH_LITE\",\"USE_PRECOMPUTED_CP\u003d1\",\"_POSIX_C_SOURCE\u003d199309L\"],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"eth_api.c\",\"abi.c\",\"key.c\",\"rpc_api.c\",\"ens.c\"]}],\"fullName\":\"eth_api_o\",\"name\":\"eth_api_o\",\"sourceDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/api/eth1\",\"type\":\"OBJECT_LIBRARY\"},{\"artifacts\":[\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/api/outputs/usn/libusn_api.a\"],\"buildDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/api/outputs/usn\",\"fileGroups\":[{\"isGenerated\":true,\"sources\":[\"../../../../../.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/api/outputs/usn/CMakeFiles/usn_api_o.dir/usn_api.c.o\"]}],\"fullName\":\"libusn_api.a\",\"linkerLanguage\":\"C\",\"name\":\"usn_api\",\"sourceDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/api/usn\",\"sysroot\":\"/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"},{\"buildDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/in3-c/c/src/api/outputs/usn\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -march\u003darmv7-a -mthumb -Wformat -Werror\u003dformat-security   -fPIC -Wall -funsigned-char -Wextra  -std\u003dc99 -D__FILENAME__\u003dnone -Werror\u003dvla -O0 -fno-limit-debug-info  -fPIC  \",\"defines\":[\"ERR_MSG\",\"ETH_API\",\"ETH_BASIC\",\"ETH_FULL\",\"ETH_NANO\",\"IN3_EXPORT_TEST\u003dstatic\",\"IN3_MATH_LITE\",\"USE_PRECOMPUTED_CP\u003d1\"],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"usn_api.c\"]}],\"fullName\":\"usn_api_o\",\"name\":\"usn_api_o\",\"sourceDirectory\":\"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/api/usn\",\"type\":\"OBJECT_LIBRARY\"}]}]}],\"cookie\":\"\",\"inReplyTo\":\"codemodel\",\"type\":\"reply\"}\n",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "done executing cmake",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "write build output /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/build_output.txt",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "write command file /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a/build_command.txt",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems",
+    "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  }
+]

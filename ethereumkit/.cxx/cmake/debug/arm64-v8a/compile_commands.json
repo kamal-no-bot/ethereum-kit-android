@@ -1,0 +1,835 @@
+[
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/core/outputs/CMakeFiles/init_o.dir/__/verifier/in3_init.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/in3_init.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/in3_init.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/core/outputs/CMakeFiles/core_o.dir/client/context.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/client/context.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/client/context.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/core/outputs/CMakeFiles/core_o.dir/client/client.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/client/client.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/client/client.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/core/outputs/CMakeFiles/core_o.dir/client/cache.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/client/cache.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/client/cache.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/core/outputs/CMakeFiles/core_o.dir/client/nodelist.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/client/nodelist.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/client/nodelist.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/core/outputs/CMakeFiles/core_o.dir/client/verifier.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/client/verifier.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/client/verifier.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/core/outputs/CMakeFiles/core_o.dir/client/execute.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/client/execute.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/client/execute.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/core/outputs/CMakeFiles/core_o.dir/client/client_init.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/client/client_init.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/client/client_init.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/core/outputs/CMakeFiles/core_o.dir/util/debug.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/util/debug.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/util/debug.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/core/outputs/CMakeFiles/core_o.dir/util/bytes.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/util/bytes.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/util/bytes.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/core/outputs/CMakeFiles/core_o.dir/util/utils.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/util/utils.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/util/utils.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/core/outputs/CMakeFiles/core_o.dir/util/scache.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/util/scache.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/util/scache.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/core/outputs/CMakeFiles/core_o.dir/util/data.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/util/data.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/util/data.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/core/outputs/CMakeFiles/core_o.dir/util/log.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/util/log.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/util/log.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/core/outputs/CMakeFiles/core_o.dir/util/mem.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/util/mem.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/util/mem.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/core/outputs/CMakeFiles/core_o.dir/util/stringbuilder.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/util/stringbuilder.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/util/stringbuilder.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/core/outputs/CMakeFiles/core_o.dir/util/bitset.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/util/bitset.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/util/bitset.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/verifier/eth1/nano/outputs/CMakeFiles/eth_nano_o.dir/eth_nano.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/nano/eth_nano.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/nano/eth_nano.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/verifier/eth1/nano/outputs/CMakeFiles/eth_nano_o.dir/rlp.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/nano/rlp.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/nano/rlp.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/verifier/eth1/nano/outputs/CMakeFiles/eth_nano_o.dir/merkle.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/nano/merkle.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/nano/merkle.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/verifier/eth1/nano/outputs/CMakeFiles/eth_nano_o.dir/serialize.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/nano/serialize.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/nano/serialize.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/verifier/eth1/nano/outputs/CMakeFiles/eth_nano_o.dir/blockheader.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/nano/blockheader.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/nano/blockheader.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/verifier/eth1/nano/outputs/CMakeFiles/eth_nano_o.dir/signature.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/nano/signature.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/nano/signature.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/verifier/eth1/nano/outputs/CMakeFiles/eth_nano_o.dir/txreceipt.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/nano/txreceipt.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/nano/txreceipt.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/verifier/eth1/nano/outputs/CMakeFiles/eth_nano_o.dir/registry.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/nano/registry.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/nano/registry.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/verifier/eth1/nano/outputs/CMakeFiles/eth_nano_o.dir/chainspec.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/nano/chainspec.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/nano/chainspec.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/verifier/eth1/evm/outputs/CMakeFiles/evm_o.dir/evm.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/evm.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/evm.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/verifier/eth1/evm/outputs/CMakeFiles/evm_o.dir/opcodes.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/opcodes.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/opcodes.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/verifier/eth1/evm/outputs/CMakeFiles/evm_o.dir/big.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/big.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/big.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/verifier/eth1/evm/outputs/CMakeFiles/evm_o.dir/call.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/call.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/call.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/verifier/eth1/evm/outputs/CMakeFiles/evm_o.dir/code.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/code.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/code.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/verifier/eth1/evm/outputs/CMakeFiles/evm_o.dir/env.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/env.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/env.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/verifier/eth1/evm/outputs/CMakeFiles/evm_o.dir/evm_mem.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/evm_mem.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/evm_mem.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/verifier/eth1/evm/outputs/CMakeFiles/evm_o.dir/accounts.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/accounts.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/accounts.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/verifier/eth1/evm/outputs/CMakeFiles/evm_o.dir/gas.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/gas.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/gas.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/verifier/eth1/evm/outputs/CMakeFiles/evm_o.dir/pre_ec.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/pre_ec.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/pre_ec.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/verifier/eth1/evm/outputs/CMakeFiles/evm_o.dir/pre_blake2.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/pre_blake2.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/pre_blake2.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/verifier/eth1/evm/outputs/CMakeFiles/evm_o.dir/precompiled.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/precompiled.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/precompiled.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/verifier/eth1/basic/outputs/CMakeFiles/eth_basic_o.dir/eth_basic.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/basic/eth_basic.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/basic/eth_basic.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/verifier/eth1/basic/outputs/CMakeFiles/eth_basic_o.dir/eth_getTransaction.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/basic/eth_getTransaction.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/basic/eth_getTransaction.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/verifier/eth1/basic/outputs/CMakeFiles/eth_basic_o.dir/eth_getBlock.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/basic/eth_getBlock.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/basic/eth_getBlock.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/verifier/eth1/basic/outputs/CMakeFiles/eth_basic_o.dir/eth_account.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/basic/eth_account.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/basic/eth_account.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/verifier/eth1/basic/outputs/CMakeFiles/eth_basic_o.dir/eth_getLog.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/basic/eth_getLog.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/basic/eth_getLog.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/verifier/eth1/basic/outputs/CMakeFiles/eth_basic_o.dir/trie.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/basic/trie.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/basic/trie.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/verifier/eth1/basic/outputs/CMakeFiles/eth_basic_o.dir/signer.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/basic/signer.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/basic/signer.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/verifier/eth1/basic/outputs/CMakeFiles/eth_basic_o.dir/filter.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/basic/filter.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/basic/filter.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/verifier/eth1/full/outputs/CMakeFiles/eth_full_o.dir/eth_full.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/full/eth_full.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/full/eth_full.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1 -Din3_jni_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/java/src/outputs/CMakeFiles/in3_jni.dir/in3_jni.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/java/src/in3_jni.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/java/src/in3_jni.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/ecdsa.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/ecdsa.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/ecdsa.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/address.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/address.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/address.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/bignum.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/bignum.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/bignum.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/rand.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/rand.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/rand.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/hmac.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/hmac.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/hmac.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/secp256k1.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/secp256k1.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/secp256k1.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/memzero.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/memzero.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/memzero.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/sha3.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/sha3.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/sha3.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/ripemd160.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/ripemd160.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/ripemd160.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/base58.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/base58.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/base58.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/hasher.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/hasher.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/hasher.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/sha2.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/sha2.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/sha2.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/blake256.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/blake256.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/blake256.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/blake2b.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/blake2b.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/blake2b.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/groestl.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/groestl.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/groestl.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/pbkdf2.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/pbkdf2.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/pbkdf2.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/aes/aes_modes.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/aes/aes_modes.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/aes/aes_modes.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/aes/aescrypt.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/aes/aescrypt.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/aes/aescrypt.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/aes/aeskey.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/aes/aeskey.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/aes/aeskey.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/crypto/outputs/CMakeFiles/crypto_o.dir/aes/aestab.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/aes/aestab.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/aes/aestab.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_fast_mp_montgomery_reduce.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_fast_mp_montgomery_reduce.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_fast_mp_montgomery_reduce.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_fast_s_mp_mul_digs.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_fast_s_mp_mul_digs.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_fast_s_mp_mul_digs.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_fast_s_mp_mul_high_digs.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_fast_s_mp_mul_high_digs.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_fast_s_mp_mul_high_digs.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_fast_s_mp_sqr.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_fast_s_mp_sqr.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_fast_s_mp_sqr.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_2expt.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_2expt.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_2expt.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_abs.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_abs.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_abs.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_add.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_add.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_add.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_addmod.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_addmod.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_addmod.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_balance_mul.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_balance_mul.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_balance_mul.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_clamp.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_clamp.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_clamp.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_clear.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_clear.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_clear.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_clear_multi.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_clear_multi.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_clear_multi.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_cmp.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_cmp.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_cmp.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_cmp_d.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_cmp_d.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_cmp_d.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_cmp_mag.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_cmp_mag.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_cmp_mag.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_copy.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_copy.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_copy.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_count_bits.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_count_bits.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_count_bits.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_div.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_div.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_div.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_div_2.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_div_2.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_div_2.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_div_2d.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_div_2d.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_div_2d.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_exch.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_exch.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_exch.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_export.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_export.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_export.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_exptmod.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_exptmod.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_exptmod.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_grow.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_grow.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_grow.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_import.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_import.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_import.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_init.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_init.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_init.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_init_copy.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_init_copy.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_init_copy.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_init_multi.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_init_multi.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_init_multi.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_init_size.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_init_size.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_init_size.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_invmod.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_invmod.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_invmod.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_invmod_slow.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_invmod_slow.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_invmod_slow.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_iseven.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_iseven.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_iseven.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_lshd.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_lshd.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_lshd.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_mod.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_mod.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_mod.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_mod_2d.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_mod_2d.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_mod_2d.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_montgomery_calc_normalization.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_montgomery_calc_normalization.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_montgomery_calc_normalization.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_montgomery_setup.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_montgomery_setup.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_montgomery_setup.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_mul.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_mul.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_mul.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_mul_2.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_mul_2.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_mul_2.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_mul_2d.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_mul_2d.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_mul_2d.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_mul_d.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_mul_d.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_mul_d.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_mulmod.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_mulmod.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_mulmod.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_neg.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_neg.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_neg.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_read_unsigned_bin.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_read_unsigned_bin.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_read_unsigned_bin.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_reduce.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_reduce.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_reduce.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_reduce_2k_l.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_reduce_2k_l.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_reduce_2k_l.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_reduce_2k_setup_l.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_reduce_2k_setup_l.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_reduce_2k_setup_l.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_reduce_is_2k_l.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_reduce_is_2k_l.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_reduce_is_2k_l.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_reduce_setup.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_reduce_setup.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_reduce_setup.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_rshd.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_rshd.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_rshd.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_set.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_set.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_set.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_sqr.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_sqr.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_sqr.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_sqrmod.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_sqrmod.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_sqrmod.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_sub.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_sub.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_sub.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_submod.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_submod.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_submod.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_to_unsigned_bin.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_to_unsigned_bin.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_to_unsigned_bin.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_unsigned_bin_size.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_unsigned_bin_size.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_unsigned_bin_size.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_mp_zero.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_zero.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_mp_zero.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_reverse.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_reverse.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_reverse.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_s_mp_add.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_s_mp_add.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_s_mp_add.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_s_mp_exptmod.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_s_mp_exptmod.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_s_mp_exptmod.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_s_mp_mul_digs.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_s_mp_mul_digs.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_s_mp_mul_digs.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bn_s_mp_sub.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_s_mp_sub.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bn_s_mp_sub.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/third-party/tommath/outputs/CMakeFiles/tommath_o.dir/bncore.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bncore.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/bncore.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/api/outputs/CMakeFiles/api_utils_o.dir/utils/api_utils.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/api/utils/api_utils.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/api/utils/api_utils.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1 -D_POSIX_C_SOURCE=199309L  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/api/outputs/eth1/CMakeFiles/eth_api_o.dir/eth_api.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/api/eth1/eth_api.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/api/eth1/eth_api.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1 -D_POSIX_C_SOURCE=199309L  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/api/outputs/eth1/CMakeFiles/eth_api_o.dir/abi.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/api/eth1/abi.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/api/eth1/abi.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1 -D_POSIX_C_SOURCE=199309L  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/api/outputs/eth1/CMakeFiles/eth_api_o.dir/key.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/api/eth1/key.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/api/eth1/key.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1 -D_POSIX_C_SOURCE=199309L  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/api/outputs/eth1/CMakeFiles/eth_api_o.dir/rpc_api.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/api/eth1/rpc_api.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/api/eth1/rpc_api.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1 -D_POSIX_C_SOURCE=199309L  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/api/outputs/eth1/CMakeFiles/eth_api_o.dir/ens.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/api/eth1/ens.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/api/eth1/ens.c"
+},
+
+{
+  "directory": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android26 --gcc-toolchain=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/belga/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DERR_MSG -DETH_API -DETH_BASIC -DETH_FULL -DETH_NANO -DIN3_EXPORT_TEST=static -DIN3_MATH_LITE -DUSE_PRECOMPUTED_CP=1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIC -Wall -funsigned-char -Wextra  -std=c99 -D__FILENAME__=none -Werror=vla -O0 -fno-limit-debug-info  -fPIC   -o in3-c/c/src/api/outputs/usn/CMakeFiles/usn_api_o.dir/usn_api.c.o   -c /Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/api/usn/usn_api.c",
+  "file": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/api/usn/usn_api.c"
+}
+]

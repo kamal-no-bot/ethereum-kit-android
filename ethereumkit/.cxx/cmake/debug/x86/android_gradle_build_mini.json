@@ -1,0 +1,175 @@
+{
+  "buildFiles": [
+    "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/CMakeLists.txt",
+    "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/Users/belga/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake",
+    "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/core/CMakeLists.txt",
+    "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/c/compiler.cmake",
+    "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/nano/CMakeLists.txt",
+    "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/evm/CMakeLists.txt",
+    "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/basic/CMakeLists.txt",
+    "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/verifier/eth1/full/CMakeLists.txt",
+    "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/java/src/CMakeLists.txt",
+    "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/crypto/CMakeLists.txt",
+    "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/third-party/tommath/CMakeLists.txt",
+    "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/api/CMakeLists.txt",
+    "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/api/eth1/CMakeLists.txt",
+    "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/in3-c/c/src/api/usn/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/x86\" clean"
+  ],
+  "buildTargetsCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "api_utils-Debug-x86": {
+      "artifactName": "api_utils",
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/x86\" api_utils",
+      "abi": "x86",
+      "output": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/x86/in3-c/c/src/api/outputs/libapi_utils.a",
+      "runtimeFiles": []
+    },
+    "init-Debug-x86": {
+      "artifactName": "init",
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/x86\" init",
+      "abi": "x86",
+      "output": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/x86/in3-c/c/src/core/outputs/libinit.a",
+      "runtimeFiles": []
+    },
+    "evm-Debug-x86": {
+      "artifactName": "evm",
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/x86\" evm",
+      "abi": "x86",
+      "output": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/x86/in3-c/c/src/verifier/eth1/evm/outputs/libevm.a",
+      "runtimeFiles": []
+    },
+    "core-Debug-x86": {
+      "artifactName": "core",
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/x86\" core",
+      "abi": "x86",
+      "output": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/x86/in3-c/c/src/core/outputs/libcore.a",
+      "runtimeFiles": []
+    },
+    "init_o-Debug-x86": {
+      "artifactName": "init_o",
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/x86\" init_o",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "eth_nano_o-Debug-x86": {
+      "artifactName": "eth_nano_o",
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/x86\" eth_nano_o",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "tommath-Debug-x86": {
+      "artifactName": "tommath",
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/x86\" tommath",
+      "abi": "x86",
+      "output": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/x86/in3-c/c/src/third-party/tommath/outputs/libtommath.a",
+      "runtimeFiles": []
+    },
+    "core_o-Debug-x86": {
+      "artifactName": "core_o",
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/x86\" core_o",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "eth_basic_o-Debug-x86": {
+      "artifactName": "eth_basic_o",
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/x86\" eth_basic_o",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "eth_api-Debug-x86": {
+      "artifactName": "eth_api",
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/x86\" eth_api",
+      "abi": "x86",
+      "output": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/x86/in3-c/c/src/api/outputs/eth1/libeth_api.a",
+      "runtimeFiles": []
+    },
+    "eth_full_o-Debug-x86": {
+      "artifactName": "eth_full_o",
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/x86\" eth_full_o",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "crypto-Debug-x86": {
+      "artifactName": "crypto",
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/x86\" crypto",
+      "abi": "x86",
+      "output": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/x86/in3-c/c/src/third-party/crypto/outputs/libcrypto.a",
+      "runtimeFiles": []
+    },
+    "tommath_o-Debug-x86": {
+      "artifactName": "tommath_o",
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/x86\" tommath_o",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "api_utils_o-Debug-x86": {
+      "artifactName": "api_utils_o",
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/x86\" api_utils_o",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "usn_api_o-Debug-x86": {
+      "artifactName": "usn_api_o",
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/x86\" usn_api_o",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "eth_nano-Debug-x86": {
+      "artifactName": "eth_nano",
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/x86\" eth_nano",
+      "abi": "x86",
+      "output": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/x86/in3-c/c/src/verifier/eth1/nano/outputs/libeth_nano.a",
+      "runtimeFiles": []
+    },
+    "eth_basic-Debug-x86": {
+      "artifactName": "eth_basic",
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/x86\" eth_basic",
+      "abi": "x86",
+      "output": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/x86/in3-c/c/src/verifier/eth1/basic/outputs/libeth_basic.a",
+      "runtimeFiles": []
+    },
+    "usn_api-Debug-x86": {
+      "artifactName": "usn_api",
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/x86\" usn_api",
+      "abi": "x86",
+      "output": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/x86/in3-c/c/src/api/outputs/usn/libusn_api.a",
+      "runtimeFiles": []
+    },
+    "evm_o-Debug-x86": {
+      "artifactName": "evm_o",
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/x86\" evm_o",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "in3_jni-Debug-x86": {
+      "artifactName": "in3_jni",
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/x86\" in3_jni",
+      "abi": "x86",
+      "output": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/build/intermediates/cmake/debug/obj/x86/libin3_jni.so",
+      "runtimeFiles": []
+    },
+    "crypto_o-Debug-x86": {
+      "artifactName": "crypto_o",
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/x86\" crypto_o",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "eth_api_o-Debug-x86": {
+      "artifactName": "eth_api_o",
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/x86\" eth_api_o",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "eth_full-Debug-x86": {
+      "artifactName": "eth_full",
+      "buildCommand": "/Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/x86\" eth_full",
+      "abi": "x86",
+      "output": "/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/x86/in3-c/c/src/verifier/eth1/full/outputs/libeth_full.a",
+      "runtimeFiles": []
+    }
+  }
+}

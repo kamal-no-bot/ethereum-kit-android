@@ -1,0 +1,7 @@
+Executable : /Users/belga/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/Users/belga/Documents/Trabajo/Bitnovo/Bitnovo3/ethereum-kit-android/ethereumkit/.cxx/cmake/debug/armeabi-v7a
+in3_jni
+jvmArgs : 
+
